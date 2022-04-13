@@ -1,0 +1,85 @@
+* {
+  margin: 0 auto;
+}
+
+a, a:link, a:hover, a:visited {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+body {
+  background-color: #e2e2e2;
+}
+
+.divTudo {
+  font-family: arial, sans-serif;
+}
+
+.divLinha {
+  clear: both;
+}
+
+.h2TituloSessao {
+  font-size: 20px;
+  margin: 10px 0px 10px 10px;
+}
+
+table, td, th {
+  border-bottom: solid 1px #e2e2e2;
+  border-collapse: collapse;
+  padding: 7px 7px 7px 7px;
+}
+
+th {
+  color: darkgrey;
+  font-weight: normal;
+  font-size: 14px;
+  text-align: center;
+}
+
+td {
+  font-size: 14px;
+  text-align: center;
+}
+
+.imgClube {
+  width: 20px;
+  height: 20px;
+}
+
+/* estilos do cabecalho geral */
+#divCabecalho {
+  background-color: #162e58;
+  min-height: 100px;
+  padding: 30px 50px 10px 50px;
+  position: relative;
+}
+#h1TituloCabecalho {
+  color: #ffffff;
+  float: left;
+  min-width: 50%;
+  font-size: 16px;
+  text-align: left;
+}
+
+.divMenu {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  clear: both;
+  text-align: center;
+  padding-left: 21%;
+  padding-right: 21%;
+}
+
+.itemMenu {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  width: 12.5%;
+  height: 44px;
+}
+
+.itemMenu:hover {
+  background-color: black;
+}

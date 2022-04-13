@@ -1,0 +1,47 @@
+body {
+    background-image: url(https://s9.postimg.cc/5btryauof/see6x8x24.gif);
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 110%;
+    font-family: montserrat;
+    font-size: 18px;
+    font-variant: small-caps;
+    text-decoration-color: white;
+    text-align: center;
+    list-style-position: inside;
+} 
+
+    .dados {
+        float: left;
+        width: 80%;
+        color: white;
+        clear: both;
+
+}
+    
+    h2 {
+        color: white;
+        font-weight: bold;
+        text-shadow: 2px 2px 5px red;
+        text-decoration: underline;
+}
+    p {
+        color:white;
+        font-weight: normal;
+}
+    li {
+        color: white;
+
+}
+    ul,ol {
+        color: white
+        }
+        img {
+            max-width: 20px;
+            vertical-align: middle;
+}
+    a {
+        color:red
+}
+ 

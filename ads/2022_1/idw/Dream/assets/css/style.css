@@ -1,0 +1,104 @@
+.linha {
+	clear: both;
+}
+
+.blocodir {
+    border: 1px solid black;
+    width: 26%;
+    float: right;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.blocoesq {
+    border: 1px solid black;
+    width: 63%;
+    height: 60%;
+    float: left;
+    padding: 20px;
+}
+
+.foto {
+    padding-top: 35px;
+    text-align: center;
+    height: auto;
+    padding-bottom: 15px;
+}
+
+.info1 {	
+	text-align: left;
+	font-size: 8px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.info2 {
+    text-align: left;
+    font-size: 16px;
+    padding-top: 19px;
+    padding-bottom: 21px;
+    padding-left: 0px;
+    padding-right: 61px;
+}
+
+.info3 {	
+	text-align: left;
+	font-size: 16px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.socialicons {
+	float: left;
+}
+
+.infoicons {
+	float: 
+}
+
+.imgIcon {
+	max-width: 25px;
+}
+
+
+
+#foto {
+    width: 240px;
+    height: 240px;
+    border-radius: 211%;
+    text-align: center;
+}
+
+#linhaprincipal {
+	margin-bottom: ;
+    width: 20px;
+	border: 1px solid black;
+    float: left;
+    padding-left: 4px
+}
+
+#linhasecundaria {
+	margin-bottom: ;
+    width: 20px;
+	border: 1px solid black;
+    float: left;
+    padding-left: 4px
+}
+
+#h1Titulos {
+	font-size: 20px;
+}
+
+#pinfo {
+	font-size: 15px;
+}
+
+h1 {
+	font-family: arial;
+}
+
+p {
+	font-family: Rockwell;
+}
