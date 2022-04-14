@@ -19,8 +19,7 @@ int main()
     r3 = cbrt(n1);
     
     printf("O número ao quadrado e:%.2f\n",quad);
-    printf("O nú
-    mero ao cubo e e:%.2f\n",cubo);
+    printf("O número ao cubo e e:%.2f\n",cubo);
     printf("A raiz quadrada do numero é:%.2f\n",r2);
     printf("A raiz cubica do numero é:%.2f\n",r3);
 
