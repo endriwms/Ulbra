@@ -35,11 +35,9 @@ int main()
 
     if (a1 > a2) {
        printf("A maior data é:%.f %.f %.f\n", d1, m1, a1);
+    } else if (a2 > a1) {
+        printf("A maior data é: %.f %.f %.f\n", d2, m2, a2);
     }
-    
-    else if (a2 > a1) {
-            printf("A maior data é: %.f %.f %.f\n", d2, m2, a2);
-        }
         
 
     return 0;
