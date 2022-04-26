@@ -32,21 +32,25 @@ body {
 }
 .nomedados {
     color:  white;
-    margin: 0;
     font-weight: bold;
-    font-size: 32px;
-    padding-left: 20px;
-    padding-bottom: 10px;
+    font-size: 14pt;
+    padding-left: 10px;
     background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-.bio {
+#pbio {
     color: white;
-    font-size: 14px;
+    font-size: 12pt;
     padding-left: 20px;
+    margin: 0.5;
+}
+
+.info {
+    color: white;
+    padding-left: 10px;
 }
 
 .itens {
@@ -98,8 +102,8 @@ body {
     margin-top: 1rem;
     float: left;
     text-align: center;
-    max-width: 20%;
-    border-radius: 20px;
+    max-width: 100%;
+    border-radius: 50%;
     padding: 5px;
     box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
     background-image: linear-gradient(144deg,#ff40a9, #5B42F3 50%,#00DDEB);
@@ -107,7 +111,7 @@ body {
    
 .card__content {
     background: rgb(5, 6, 45);
-    border-radius: 17px;
+    border-radius: 50%;
     width: 100%;
     height: 100%;
 }
@@ -115,14 +119,13 @@ body {
 /* Id's */
 
 #foto {
-    width: 0%;
+    width: 300%;
     float: left;
     text-align: center;
 }
 
 #imgfoto {
-    border-radius: 30%;
-    border-radius: 17px;
+    border-radius: 50%;
     width: 100%;
     height: 100%;
 }
@@ -131,25 +134,24 @@ body {
     width: 70%;
     float: left;
     text-align: left;
-    font-size: 14px;
+    font-size: 12pt;
     vertical-align: middle;
-    padding-top: 45px;
     font-weight: 300;
 }
 
 #objetivos {
     padding-top: 2%;
-    margin: 2%;
+    margin: 0 auto;
     text-align: justify;
 }
 
 #formacao {
-    margin: 2%;
+    margin: 0 auto;
     text-align: left;
 }
 
 #coluna1 {
-    margin-left: 2%;
+    margin-left: 0 auto;
     margin-right: 2%;
     text-align: left;
     float: left;
@@ -165,7 +167,7 @@ body {
 
 #coluna3 {
     margin-left: 2%;
-    margin-right: 2%;
+    margin-right: 0 auto;
     text-align: left;
     float: left;
     width: 45%;
@@ -175,7 +177,7 @@ body {
 
 h1 {
     color: #ffffff;
-    padding: 10px 20px 10px 20px;
+    padding-left: 20px;
 }
 
 h2 {

@@ -1,0 +1,32 @@
+.linha {
+  clear: both;
+  padding: 20px 20px 20px 20px;
+}
+
+.tudo {
+  border: solid 1px black;
+}
+
+.conteudo {
+  margin: 0 auto;
+  position: relative;
+  border: solid px black;
+  width: 80%;
+}
+
+.blocosuperior {
+  width: 100%;
+  padding: 20px;
+}
+
+.blocosuperioresquerdo {
+  width: 50%;
+  float: left;
+  border: solid 1px black;
+}
+
+.blocosuperiordireito {
+  width: 20%;
+  float: right;
+  border: solid 1px black;
+}
