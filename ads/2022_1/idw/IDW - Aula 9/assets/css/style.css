@@ -1,0 +1,50 @@
+body {
+    font-family: arial, open-sans;
+}
+
+header {
+    background-color: darkgrey;
+    padding: 5rem;
+    text-align: center;
+    color: white;
+    font-size: 14pt;
+}
+
+section {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+nav {
+    padding: 2rem;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+article {
+    background-color: lightgrey;
+    padding: 2rem;
+    width: 80%;
+}
+
+footer {
+    background-color: darkgrey;
+    padding: 5rem;
+    text-align: center;
+    color: white;
+    font-size: 14pt;
+}
+
+@media (max-width: 600px){
+    section {
+        flex-wrap: wrap;
+    }
+    nav {
+        width: 100%;
+    }
+    article {
+        width: 100%;
+    }
+}
