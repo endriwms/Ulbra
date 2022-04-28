@@ -1,50 +1,72 @@
-body {
-    font-family: arial, open-sans;
+@media print, screen and (min-width: 64em) {
+
 }
 
 header {
-    background-color: darkgrey;
-    padding: 5rem;
-    text-align: center;
-    color: white;
-    font-size: 14pt;
-}
-
-section {
-    display: flex;
-    flex-wrap: nowrap;
-}
-
-nav {
-    padding: 2rem;
-}
-
-nav ul {
-    list-style-type: none;
+    width: 19.625rem;
+    position: fixed;
+    height: 100%;
+    background: #1d1d1d;
+    font-size: 1rem;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    top: 0;
+    left: 0;
+    background: url(../img/top-header.png) #0d0d0d top right no-repeat;
 }
 
 article {
-    background-color: lightgrey;
-    padding: 2rem;
-    width: 80%;
-}
-
-footer {
-    background-color: darkgrey;
-    padding: 5rem;
+    position: relative;
     text-align: center;
+    float: right;
+    padding-top: 20rem;
+    padding-bottom: 20rem;
+    width: 77%;
+    top: 0;
+    bottom: 0;
     color: white;
-    font-size: 14pt;
+    background-image: url(https://thumbs.gfycat.com/AbsoluteFreeBooby-size_restricted.gif);
+    background-position: center;
+    background-size: 150%;
+    background-repeat: no-repeat;
 }
 
-@media (max-width: 600px){
-    section {
-        flex-wrap: wrap;
-    }
-    nav {
-        width: 100%;
-    }
-    article {
-        width: 100%;
-    }
+.nav {
+  position: relative;
+  margin: 0 15%;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+  font-weight: bold;
 }
+
+.nav ul {
+    list-style: none;
+    }  
+    li {
+        color: white;
+        position: relative;
+        margin: 0.5rem 0;
+    }
+    
+    a {
+        line-height: 5em;
+        text-transform: uppercase;
+        text-decoration: none;
+        letter-spacing: 0.4em;
+        color: rgba(rgb(255, 255, 255), 0.35);
+        display: block;
+        transition: all ease-out 300ms;
+    }
+    
+    .active a {
+        color: rgb(255, 123, 0);     
+    }
+    
+    :not(.active)::after {
+        color: white;
+        opacity: 0.2;
+    }
+    
+    :not(.active):hover a {
+        color: rgba(#FFF, 0.75);
+    }
