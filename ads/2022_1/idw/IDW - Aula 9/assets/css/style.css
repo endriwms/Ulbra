@@ -1,8 +1,16 @@
-@media print, screen and (min-width: 64em) {
-
-}
-
+@media print, screen and (max-width: 600px) {
+    section {
+        flex-wrap: wrap;
+    }
+    nav {
+        width: 100%;
+    }
+    article {
+        width: 100%
+    }
+}   
 header {
+    flex-wrap: nowrap;
     width: 19.625rem;
     position: fixed;
     height: 100%;
@@ -16,13 +24,11 @@ header {
 
 article {
     position: relative;
-    text-align: center;
     float: right;
+    text-align: center;
     padding-top: 20rem;
     padding-bottom: 20rem;
     width: 77%;
-    top: 0;
-    bottom: 0;
     color: white;
     background-image: url(https://thumbs.gfycat.com/AbsoluteFreeBooby-size_restricted.gif);
     background-position: center;
