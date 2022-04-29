@@ -86,6 +86,7 @@ article.sobre {
     -ms-flex: 3;
     flex: 3;
     padding: 10%;
+    background-color: #161616;
     text-align: left;
 }
 
@@ -94,6 +95,7 @@ article.cidades {
     -ms-flex: 3;
     flex: 3;
     padding: 10%;
+    background-color: #161616;
     text-align: left;
 }
 
@@ -102,10 +104,41 @@ article.contato {
     -ms-flex: 3;
     flex: 3;
     padding: 10%;
+    background-color: #161616;
     text-align: left;
 }
-  
-  
+
+.cidade1 {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    padding-top: 30px;
+    background-image: url(https://www.visitbritain.com/sites/default/files/styles/consumer_campaigns_hero_mobile/public/paragraphs_bundles/hero/london.jpg) rgba(0, 0, 0, 0.356);
+}
+
+.cidade2 {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    padding-top: 30px;
+    background: url(../img/top-header.png) #161616 top right no-repeat;
+}
+
+.cidade3 {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    padding-top: 30px;
+    background: url(../img/top-header.png) #161616 top right no-repeat;
+}
+
+.info2 {
+    text-align: right;
+}
+
+.bandeira {
+    max-width: 64px;
+}
  
 @media (max-width: 600px) {
     section {
