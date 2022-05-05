@@ -7,6 +7,7 @@ int main()
 {
     UINT CPAGE_UTF8 = 65001;
     SetConsoleOutputCP (CPAGE_UTF8);
+    
     float nota1, nota2, nota3, notaExame, media;
 
     printf("Digite primeira nota:\n");

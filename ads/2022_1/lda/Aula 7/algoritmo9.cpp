@@ -5,7 +5,7 @@
 #include <iostream>
 #include <time.h>
 #include <ctime>
-#include<locale.h>
+#include <locale.h>
 
 int main()
 {
