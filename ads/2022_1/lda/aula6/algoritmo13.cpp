@@ -9,6 +9,7 @@ int main ()
 {
     UINT CPAGE_UTF8 = 65001;
     SetConsoleOutputCP (CPAGE_UTF8);
+    
     int tabuada = 0;
     printf("\nDigite a tabuada que você deseja \n\t\t\t\n>>>");
     scanf("%i", &tabuada);
