@@ -53,3 +53,18 @@ html {
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     transition: opacity .2s linear;
 }
+
+.bi-instagram{
+    max-width: 512px;
+    color: white;
+}
+
+.bi-linkedin{
+    max-width: 512px;
+    color: white;
+}
+
+.bi-github{
+    max-width: 512px;
+    color: white;
+}

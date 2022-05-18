@@ -9,11 +9,13 @@ int main(){
     UINT CPAGE_UTF8 = 65001;
     SetConsoleOutputCP (CPAGE_UTF8);
 
-    for (int i=1000; i < 2000; i++){
+    int i = 1000;
+
+    do{
         if(i % 11 == 5){
             printf("%d\n", i);
-        }
-    }
+            i++;
+        }}while(i < 2000);
         
     return 0;
 }
