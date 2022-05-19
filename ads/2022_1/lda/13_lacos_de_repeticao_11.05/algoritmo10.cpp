@@ -9,6 +9,8 @@ int main(){
 
     int numero;
     int i=0;
+    int nPar=0;
+    int nImpar=0;
 
     while(i < 10){
         printf("Digite o número %d\n", i+1);
@@ -16,9 +18,14 @@ int main(){
         i++;
         if( i % 2 == 1){
             printf("O número é IMPAR\n");
+            nImpar++;
         }else{
             printf("O número é PAR\n");
+            nPar++;
         }
     }
+
+    printf("Foram executados %d pares\n", nPar);
+    printf("Foram executados %d Impares\n", nImpar);
 
 }

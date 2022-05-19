@@ -1,4 +1,4 @@
-//Elabore um programa que calcule e escreva a soma de 10 números lidos. Esse algorimo deve ser feito três vezes uma usando o FOR, DO-WHILE e WHILE
+//Elabore um programa que calcule e escreva a soma de 10 números lidos. Esse algorimo deve ser feito três vezes uma usando o FOR
 
 #include <stdio.h>
 #include <math.h>
