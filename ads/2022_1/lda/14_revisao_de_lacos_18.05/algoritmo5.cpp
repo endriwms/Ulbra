@@ -6,3 +6,27 @@
 //             7   2                               Crescente
 //             3   8
 
+#include <stdio.h>
+#include <windows.h>
+
+int main(){
+    UINT CPAGE_UTF8 = 65001;
+    SetConsoleOutputCP (CPAGE_UTF8);
+
+    int i;
+    float n1, n2;
+    i = 0;
+
+    do{
+        printf("Digite dois números:\n");
+        scanf("%f%f%*c", &n1, &n2);
+
+        if(n1 > n2){
+            printf("Ordem decrescente\n");
+        }else if(n2 > n1){
+            printf("Ordem Crescente\n");
+        }
+        i++;
+    }while (n1 != n2);
+    printf("Encerrando..\n");
+}
