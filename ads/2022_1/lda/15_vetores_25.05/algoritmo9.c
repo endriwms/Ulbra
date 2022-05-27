@@ -1,0 +1,1 @@
+//9. Crie um programa que lê 6 valores num vetor inteiros pares e, em seguida, mostre na tela os valores ˆ lidos na ordem inversa. 
