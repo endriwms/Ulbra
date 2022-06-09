@@ -1,0 +1,68 @@
+.folha{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    padding: 5%;
+    margin: 5%;
+    background-color: rgb(48, 48, 48);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.base1{
+    float: center;
+}
+
+#resultado, #conversao {
+    color: white;
+    align-self: center;
+    padding: 10px;
+    outline: none;
+    margin-bottom: 8px;
+    border: solid #3dfff2 2px;
+    background-color: rgb(48, 48, 48);
+    cursor: pointer;
+    transition: all ease-in-out 300ms;
+}
+
+.btn-conv, .btn-limpar {
+    color: white;
+    align-self: center;
+    padding: 10px;
+    outline: none;
+    margin-bottom: 8px;
+    border: solid #3dfff2 2px;
+    background-color: rgb(48, 48, 48);
+    cursor: pointer;
+    transition: all ease-in-out 300ms;
+}
+
+.btn-conv:hover, .btn-conv:active {
+    background-color: #3dfff2;
+    color:black;
+}
+
+#espaco{
+    padding: 25px;
+}
+
+.resultados{
+    background-color: rgb(48, 48, 48);
+    padding: 0px 0px 0px 10px;
+    text-align: left;
+}
+
+#entrada, #result {
+    color: white;
+    padding: 5px 7px;
+    margin: 10px 0px;
+    background-color: rgb(48, 48, 48);
+    outline: none;
+    border: solid #3dfff2;
+}
+
+#conversao, #resultado {
+    align-self: baseline;
+    margin: 15px;
+    padding: 4px;
+}
+
