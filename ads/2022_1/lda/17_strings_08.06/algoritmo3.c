@@ -13,38 +13,38 @@ int main(){
     int i, conta = 0;
 
     printf("Digite uma string: \n");
-    gets(carac);
-    fflush(stdin);
-
-    do{
-        printf("Digite um caractere: \n");
-        scanf("%c", &c);
+    scanf("%d", carac[i]);
+    
+    // do{
+    //     printf("Digite um caractere: \n");
+    //     fflush(stdin);
+    //     scanf("%c", &c);
         
-        for(i = 0; carac[i] != '\0'; i++){
+    //     for(i = 0; carac[i] != '\0'; i++){
             
-            //printf("%c == %c\n", carac[i], c);
-            if(carac[i] == c){
-            conta++;
-            }else{
-                printf("Caractere Inválido. Tente novamente.\n");
-            }
-            printf("conta = %d\n", conta);
-        }
-    }while(conta == 0);
+    //         //printf("%c == %c\n", carac[i], c);
+    //         if(carac[i] == c){
+    //             conta++;
+    //         }else{
+    //             printf("Caractere Inválido. Tente novamente.\n");
+    //         }
+    //         printf("conta = %d\n", conta);
+    //     }
+    // }while(conta != 0);
 
     
-    return 0;
+    // return 0;
 
 
-    // for(i = 0; carac[i] != '\0'; i++){
-    //     if(carac[i] == c){
-    //         conta++;
-    //     }
-    // }
+    for(i = 0; carac[i] != '\0'; i++){
+        if(carac[i] == c){
+            conta++;
+        }
+    }
 
-    // if(conta == 0){
-    //     printf("Caractere não encontrado.\n");
-    // }else{
-    //     printf("Digite um caractere: \n");
-    // }
+    if(conta == 0){
+        printf("Caractere não encontrado.\n");
+    }else{
+        printf("Digite um caractere: \n");
+    }
 }
