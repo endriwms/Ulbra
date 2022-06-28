@@ -9,7 +9,7 @@ $(document).ready(function(){
     $('#menu_home').click(function(){
         removeCss();
         $('#menu_home'). addClass('active');
-        $('section').load('paginas/home.html', function(){
+        $('section').load('src/home.html', function(){
         });
     })
 
@@ -56,8 +56,8 @@ $(document).ready(function(){
             removeCss();
             $('#menu_contadeluz'). addClass('active');
             $('#calcular').click(function(){
-                var quantidadeKwh = parseFloat(document.getElementById('quantidadeKwh').value);
-                var valorKwh = parseFloat(document.getElementById('valorKwh').value);
+                var quantidadeKwh = parseFloat($('#quantidadeKwh').val());
+                var valorKwh = parseFloat($('#valorKwh').val());
                 var valorConta = quantidadeKwh * valorKwh
 
                 if(quantidadeKwh > 100 && quantidadeKwh <=200){
@@ -65,8 +65,58 @@ $(document).ready(function(){
                 }else if(quantidadeKwh > 200){
                     valorConta = valorConta *1.5;
                 }
-            $('#result').val('' + resultado);
+            $('#result2').val('' + valorConta);
         
+            })
+        });
+    })
+
+    $('#menu_verifNum').click(function(){
+
+        $('section').load('src/verificarnumero.html', function(){
+            removeCss();
+            $('#menu_verifNum'). addClass('active');
+            $('#calcular').click(function(){
+
+                var numeros = ($('#numeros').val());
+                var maior = 0;
+                numeros = numeros.split(',');
+
+                for(var i = 0; i < numeros.length; i++){
+                    var valorAtual = parseFloat(numeros[i]);
+                    if(valorAtual > maior){
+                        maior = valorAtual;
+                    }
+                }
+            $('#result3').val('' + valorAtual);
+        
+            })
+        });
+    })
+
+    $('#menu_verifIdade').click(function(){
+
+        $('section').load('src/maiordeidade.html', function(){
+            removeCss();
+            $('#menu_verifIdade'). addClass('active');
+            $('#calcular').click(function(){
+                var idades = ($('#idades').val());
+                idades = idades.split(',');
+
+                var maioresDeIdade = 0;
+                var menoresDeIdade = 0;
+
+                for(var i = 0; i < idades.length; i++){
+                    var idadeAtual = parseFloat(idades[i]);
+                    if(idadeAtual >= 18){
+                        maioresDeIdade++;
+                    }else{
+                        menoresDeIdade++;
+                    }
+                }
+
+            $('#resultMaior').val('' + maioresDeIdade);
+            $('#resultMenor').val('' + menoresDeIdade);
             })
         });
     })
