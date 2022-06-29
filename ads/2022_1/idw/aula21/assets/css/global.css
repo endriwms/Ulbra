@@ -1,0 +1,12 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+#slider {
+  list-style: none;
+  width: 500;
+  height: 200;
+  margin: 0 auto;
+  padding: 0;
+  
+}

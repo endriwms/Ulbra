@@ -16,29 +16,33 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
     <!-- CSS E JS-->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/global.css">
     <script src="assets/scripts/scripts.js"></script>
 </head>
 <body>
 
     <header class="bg-primary text-white p-5 text-center">
-        <h1>Minha página HTML, CSS e JS</h1>
-        <p>
-            Texto secundário do site
-        </p>
+        <ul id="slider">
+          <li class="sliderActive"><a href="#"><img src="assets/img/1.jpg" alt=""></a></li>
+          <li class="sliderActive"><a href="#"><img src="assets/img/2jpg" alt=""></a></li>
+          <li class="sliderActive"><a href="#"><img src="assets/img/3.jpg" alt=""></a></li>
+        </ul>
     </header>
 
-    <nav class="navbar navbar-expand-sm bg-black navbar-dark">
-        <div class="container-fluid">
+    <nav class="navbar navbar-expand-sm d-flex bg-black navbar-dark">
+        <div class="container">
+          <span>
+            Endriw Schiavenato
+          </span>
           <ul class="navbar-nav">
             <li class="nav-item">
               <a  id="menuHome" class="nav-link" href="#">Home</a>
             </li>
-           <li class="nav-item">
+            <li class="nav-item">
               <a id="menuSobre" class="nav-link" href="#">Sobre</a>
             </li>
             <li class="nav-item">
-              <a id="menuProdutos" class="nav-link" href="#">Produtos e Serviços</a>
+              <a id="menuProdutos" class="nav-link" href="#">Serviços</a>
             </li>
             <li class="nav-item">
               <a id="menuContato" class="nav-link" href="#">Contato</a>

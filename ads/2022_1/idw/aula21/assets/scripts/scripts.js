@@ -19,20 +19,18 @@ $(document).ready(() => {
     $('#menuSobre').click(() => {
         clearClass()
         $('#menuSobre').addClass('active');
-        $('section').load('pages/sobre.html');
+        $('section').load('src/sobre.html');
     })
 
     $('#menuProdutos').click(() => {
         clearClass()
         $('#menuProdutos').addClass('active');
-        $('section').load('pages/produtos.html');
+        $('section').load('src/produtos.html');
     })
 
     $('#menuContato').click(() => {
         clearClass()
         $('#menuContato').addClass('active');
-        $('section').load('pages/contato.html');
+        $('section').load('src/contato.html');
     })
-
-
 })

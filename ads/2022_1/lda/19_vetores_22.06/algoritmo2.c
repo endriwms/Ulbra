@@ -28,8 +28,8 @@ int main(){
     float media[10];
     char nome[10][20];
     int op, nota, posicao;
-    int i = 0, contadorAlunos = 0;
-    char opcaoAdicionar;
+    int i = 0, contAlunos = 0;
+    char opAdicionar;
     
     do{
         for(int i = 0; i < 10; i++){
@@ -43,14 +43,13 @@ int main(){
 
             printf("Digite o nome do aluno %d:\n",i+1);
             scanf("%s%*c", &nome[i]);
-            scanf("%d%*c", &pos[i]);
 
-            contadorAlunos++;
+            contAlunos++;
 
             printf("\n\nDeseja adicionar um novo aluno [S/N]:\n");
-            scanf("%s%*c",&opcaoAdicionar);
+            scanf("%s%*c",&opAdicionar);
 
-            if (opcaoAdicionar == 'S' || opcaoAdicionar == 's'){
+            if (opAdicionar == 'S' || opAdicionar == 's'){
                 continue;
             }else{
                 break;
@@ -61,8 +60,8 @@ int main(){
 
     do{
         printf("\nQual opção do menu você deseja realizar?\n");
-        printf("Opção 1: Listar todos os alunos Aprovados.\n");
-        printf("Opção 2: Listar todos os Alunos Reprovados.\n");
+        printf("Opção 1: Listar todos os Aprovados.\n");
+        printf("Opção 2: Listar todos os Reprovados.\n");
         printf("Opção 3: Listar todos os alunos com nota maior que uma nota informada pelo usuário.\n");
         printf("Opção 4: Informar uma Posição e exibir os dados e notas do aluno.\n");
         printf("Opção 5: Encerrar o programa.\n");
@@ -71,7 +70,7 @@ int main(){
         switch (op){
         case 1:
             printf("Os alunos aprovados são:\n");
-            for(i = 0; i < contadorAlunos; i++){
+            for(i = 0; i < contAlunos; i++){
                 if (media[i] >= 7){  
                     printf("Aluno %d : %s -- Média %.2f\n",i+1, nome[i], media[i]);
                 }
@@ -79,7 +78,7 @@ int main(){
             break;
         case 2:
             printf("Os alunos reprovados são:\n");
-            for(i = 0; i < contadorAlunos; i++){
+            for(i = 0; i < contAlunos; i++){
                 if(media[i] < 7){  
                     printf("Aluno %d : %s -- Média: %.2f\n",i+1, nome[i], media[i]);
                 }
@@ -90,18 +89,18 @@ int main(){
             scanf("%d", &nota);
 
             printf("Os alunos com nota maior que as informadas são:\n");
-            for(i = 0; i < contadorAlunos; i++){
+            for(i = 0; i < contAlunos; i++){
                 if(nota < nota1[i] && nota < nota2[i]){
                     printf("Aluno %s\n", nome[i]);
                 }
             }
             break;
         case 4:
-            printf("Foram registrados %d alunos. Digite uma posição para verificação:\n", contadorAlunos);
+            printf("Foram registrados %d alunos. Digite uma posição para verificação:\n", contAlunos);
             scanf("%d%*c", &posicao);
 
-            for(i = 0; i < contadorAlunos; i++){
-                if(posicao == pos[i]){
+            for(i = 0; i < contAlunos; i++){
+                if(posicao == i+1){
                     printf("Aluno: %s -- Nota 1: %.2f -- Nota 2: %.2f -- Média: %.2f\n", nome[i], nota1[i], nota2[i], media[i]);
                 }
             }
