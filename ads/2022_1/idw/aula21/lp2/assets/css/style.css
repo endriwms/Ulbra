@@ -1,0 +1,14 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+.slider {
+  background-color: black;
+  background-image: url('https://gifs.eco.br/wp-content/uploads/2022/06/gifs-vaporwave-20.gif');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: darker;
+}
+section {
+  background-color: gray
+}

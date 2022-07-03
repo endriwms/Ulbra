@@ -1,7 +1,12 @@
 $(document).ready(() => {
 
     $('section').load('pages/home.html');
-    $('#menuHome').addClass('active');
+    $('#menuSobre').addClass('active');
+
+    $('#botao').click(() => {
+        load('src/sobre.html');
+    })
+
 
     function clearClass(){
         $('#menuHome').removeClass('active');
@@ -13,7 +18,6 @@ $(document).ready(() => {
     $('#menuHome').click(() => {
         clearClass()
         $('#menuHome').addClass('active');
-        $('section').load('pages/home.html');
     })
 
     $('#menuSobre').click(() => {
