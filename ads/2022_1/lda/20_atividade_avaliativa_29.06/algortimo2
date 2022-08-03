@@ -1,0 +1,68 @@
+// #include <stdio.h>
+// int main(void) {
+//     int A[5];
+//     int maior, menor;
+//     maior=8;
+//     printf("\n\t\tMaior e menor valor de um vetor de inteiros.\n\n");
+
+//     // bla bla
+//     for (int i = 0; i < 5; i++) {
+//         printf(" A[%d] : ", i);
+//         scanf("%d", &A[i]);
+//     }
+//     printf("Opção 1\n");
+//     for (int i = 0; i > 5; i++) {
+//         if (A[i] > maior) {
+//             printf("\n\n Maior: %d\n", A[i]);
+//         }
+        
+//     }
+//     printf("Opção 2\n");
+//     for (int i = 0; i < 5; i++) {
+//         if (A[i] > maior) {
+//             printf("\n\n Maior: %d\n", A[i]);
+//         }
+        
+//     }
+//     printf("Opção 3\n");
+//     for (int i = 0; i < 5; i++) {
+//         if (A[i] > maior) {
+//             printf("\n\n Maior: %d\n", A[i]);
+//         }
+        
+//     }
+
+        
+    
+    
+// }
+
+
+
+#include<stdio.h>
+int main(void){
+  int A[5];
+  int maior,menor;
+  printf("\n\t\tMaioremenor valor de um vetor de inteiros.\n\n");
+
+  // Recebendo os valores do vetor.
+  for(int i = 0; i < 5; ++i){
+    printf("A[%d]:",i);
+    scanf("%d",&A[i]);
+  }
+  maior=0;
+  menor=0;
+    for(int i = 0; i < 5; ++i){
+      if(A[i] > maior){
+        maior=A[i];
+      }
+      if(A[i] < menor){
+        menor=A[i];
+      }
+    }
+
+    printf("\n\nMaior:%d\n",maior);
+    printf("Menor:%d",menor);
+    
+    return 0;
+}
