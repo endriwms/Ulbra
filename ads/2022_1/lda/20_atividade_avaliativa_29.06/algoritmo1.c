@@ -1,3 +1,24 @@
+// #include <stdio.h>
+// #include <windows.h>
+
+// int main(){
+//   UINT CPAGE_UTF8 = 65001;
+//   SetConsoleOutputCP (CPAGE_UTF8);
+
+//   int matriz[3][2] = {{5, -3}, {1, -3}, {3, 10}};
+//   int sln[3] = {0, 0, 0};
+//   int i, j, x;
+//   x = 0;
+
+//   for(i = 1; i < 2; i++){
+//     for(j = 1; j < 2; j++) {
+//       sln[i] = sln[i] + matriz[i][j];
+//     }
+//     x = x + sln[i];
+//   }
+//   printf("%d", x);
+// }
+
 #include <stdio.h>
 #include <windows.h>
 
@@ -5,30 +26,22 @@ int main(){
   UINT CPAGE_UTF8 = 65001;
   SetConsoleOutputCP (CPAGE_UTF8);
 
-  int numero[10], soma, media;
-  int vetor[] = {6,6,6,6,6,6,6,6,6};
-  int i;
-  soma = 0;
+  int numero;
+  int permutacao;
 
-  for(i = 1; i < 10; i++){
-    printf("Digite um número\n");
-    scanf("%d%*c", &numero[i]);
+  printf("Digite o n de letras");
+  scanf("%d%*c", &numero);
 
-    soma = (soma + numero[i]);
-    media = soma / 10;
-  }
-  printf("A soma dos 10 numeros: %d\n", soma);
-  printf("A media dos 10 numeros: %d\n", media);
-
-  printf("Quais os numeros estão acima da média?\n");
-  for(i = 0; i < 10; i++){
-    if(numero[i] > media){
-      printf("Valor[%d] é maior que a media\n", numero[i]);
-    }
+  if (numero > 1) {
+    permutacao = (numero - 1) * numero;
   }
 
-  printf("Exibir o vetor?\n");
-  for(i = 0; i < 9; i++){
-    printf("Valor[%d] posição %d\n", numero[i], i);
-  }
+
+  printf("o numero de permutações é %d", numero);
 }
+
+Aula A = {João, Gabriel, Stephanie, Daniel, Arthur, Guilherme, Matheus, Renan, Carolina}
+
+Aula B = {Bruno, Guilherme, Carolina, Daniel, Arthur, Marcus, Severino, Oman, Stephanie}
+
+AB = {Stephanie, Daniel, Arthur Guilherme Carolina}

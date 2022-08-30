@@ -1,0 +1,18 @@
+#headingUm {
+  font-size: 38pt;
+  font-stretch: expanded;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#servicesContainer {
+  border-radius: 10px;
+  background: rgb(255,176,250);
+  background: linear-gradient(90deg, rgba(255,176,250,1) 0%, rgba(255,244,176,1) 25%, rgba(255,193,141,1) 50%, rgba(247,190,48,1) 75%, rgba(255,152,229,1) 100%);
+}
+
+#serviceContainer {
+  background-color: white;
+  border-radius: 10px;
+
+}
