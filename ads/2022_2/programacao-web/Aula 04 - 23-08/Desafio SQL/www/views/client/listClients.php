@@ -16,15 +16,19 @@
       <td>
         <?= $client['idClient']?>
       </td>
+
       <td>
         <?= $client['name']?>
       </td>
+
       <td>
         <?= $client['email']?>
       </td>
+
       <td>
         <?= $client['phone']?>
       </td>
+      
       <td>
         <?= $client['address']?>
       </td>
