@@ -27,11 +27,10 @@
                 <h2>Menu</h2>
                 <ul class="nav flex-column">
                     <li class="nav-item">
-                        <a id="home" class="nav-link text-white" href="?controller=main&action=home">Home</a>
+                        <a id="home" class="nav-link text-white" href="?controller=site&action=home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a id="home" class="nav-link text-white" href="?controller=main&action=listClients
-                        ">Listar Clientes</a>
+                        <a id="home" class="nav-link text-white" href="?controller=client&action=listClients">Listar Clientes</a>
                     </li>
                 </ul>
             </nav>

@@ -10,7 +10,7 @@
         require_once('controllers/SiteController.php');
         $SiteController = new SiteController();
         if (!isset($_GET['action'])) {
-            $SiteController->home();
+            $SiteController -> home();
         } else {
             switch ($_REQUEST['action']) {
                 case 'home':
