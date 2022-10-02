@@ -3,7 +3,7 @@
     var $conn;
 
     public function openConnect() {
-      $servername = "db:6033";
+      $servername = "db:3306";
       $username = "root";
       $password = "1q2w3e4r5t";
       $dbname = "pw_exemple";
