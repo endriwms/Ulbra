@@ -8,7 +8,7 @@ create table fornecedores(
 -- (id, codigo, nome) VALUES ('1', '123', 'fornecedor 1');
 
 ALTER TABLE fornecedores 
-  MODIFY COLUMN (nome varchar(60));
+  MODIFY COLUMN nome varchar(60);
 
 ALTER TABLE fornecedores
   ADD data_ultima_compra date not null
@@ -28,7 +28,7 @@ ALTER TABLE pedidos
 create table categorias(
   id_categoria int auto_increment primary key,
   codigo_categoria int not null unique,
-  nome varchar(30),
+  nome varchar(30)
 );
 
 -- INSERT INTO categorias
