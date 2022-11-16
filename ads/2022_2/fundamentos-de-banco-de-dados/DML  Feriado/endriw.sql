@@ -31,11 +31,21 @@ CREATE TABLE fornecedor (
 
 -- Liste todos os produtos cadastrados e ordene por ordem alfabética de descrição.
 SELECT * FROM produtos
-  WHERE descricao
   ORDER BY descricao ASC;
 
 -- Liste os produtos que foram pedidos e o nome do fornecedor de cada pedido.
+SELECT p.descricao, f.nome as nome_fornecedor 
+  FROM produtos p, pedidos, fornecedor f
+    WHERE p.codigo = pedidos.codigo and
+          f.codigo = pedido.codigo
 
 -- Mostre os produtos que já foram pedidos e o nome da categoria a que ele pertence.
+SELECT p.descricao, c.nome as nome_categoria 
+  FROM produtos p, categorias c
+   WHERE p.codigo = c.codigo
 
 -- Mostre o nome do fornecedor, a data do último pedido e a descrição do produto que ele pediu.
+  SELECT f.nome AS nome_fornecedor, p.data_pedido, produto.descricao 
+    FROM fornecedor f, pedido p, produto
+      WHERE p.data_pedido < p.data_pedido and
+            produto_descricao = p.data_pedido
