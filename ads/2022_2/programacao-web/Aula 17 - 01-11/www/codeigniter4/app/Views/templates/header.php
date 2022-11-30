@@ -38,7 +38,7 @@
                 <h2>Clientes</h2>
                 <ul class="nav flex-column">
                     <li class="nav-item">
-                        <a id="home" class="nav-link" href="<?=base_url('insert')?>">Cadastro</a>
+                        <a id="home" class="nav-link" href="<?=base_url('insertClient')?>">Cadastro</a>
                     </li>
                     <li class="nav-item">
                         <a id="home" class="nav-link" href="<?=base_url('listClients')?>">Listagem de clientes</a>
