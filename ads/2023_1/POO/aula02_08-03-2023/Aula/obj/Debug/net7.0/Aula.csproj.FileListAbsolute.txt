@@ -1,0 +1,15 @@
+D:\coisas\Endriw\Ulbra\ads\2023_1\POO\aula02_08-03-2023\Aula\bin\Debug\net7.0\Aula.exe
+D:\coisas\Endriw\Ulbra\ads\2023_1\POO\aula02_08-03-2023\Aula\bin\Debug\net7.0\Aula.deps.json
+D:\coisas\Endriw\Ulbra\ads\2023_1\POO\aula02_08-03-2023\Aula\bin\Debug\net7.0\Aula.runtimeconfig.json
+D:\coisas\Endriw\Ulbra\ads\2023_1\POO\aula02_08-03-2023\Aula\bin\Debug\net7.0\Aula.dll
+D:\coisas\Endriw\Ulbra\ads\2023_1\POO\aula02_08-03-2023\Aula\bin\Debug\net7.0\Aula.pdb
+D:\coisas\Endriw\Ulbra\ads\2023_1\POO\aula02_08-03-2023\Aula\obj\Debug\net7.0\Aula.csproj.AssemblyReference.cache
+D:\coisas\Endriw\Ulbra\ads\2023_1\POO\aula02_08-03-2023\Aula\obj\Debug\net7.0\Aula.GeneratedMSBuildEditorConfig.editorconfig
+D:\coisas\Endriw\Ulbra\ads\2023_1\POO\aula02_08-03-2023\Aula\obj\Debug\net7.0\Aula.AssemblyInfoInputs.cache
+D:\coisas\Endriw\Ulbra\ads\2023_1\POO\aula02_08-03-2023\Aula\obj\Debug\net7.0\Aula.AssemblyInfo.cs
+D:\coisas\Endriw\Ulbra\ads\2023_1\POO\aula02_08-03-2023\Aula\obj\Debug\net7.0\Aula.csproj.CoreCompileInputs.cache
+D:\coisas\Endriw\Ulbra\ads\2023_1\POO\aula02_08-03-2023\Aula\obj\Debug\net7.0\Aula.dll
+D:\coisas\Endriw\Ulbra\ads\2023_1\POO\aula02_08-03-2023\Aula\obj\Debug\net7.0\refint\Aula.dll
+D:\coisas\Endriw\Ulbra\ads\2023_1\POO\aula02_08-03-2023\Aula\obj\Debug\net7.0\Aula.pdb
+D:\coisas\Endriw\Ulbra\ads\2023_1\POO\aula02_08-03-2023\Aula\obj\Debug\net7.0\Aula.genruntimeconfig.cache
+D:\coisas\Endriw\Ulbra\ads\2023_1\POO\aula02_08-03-2023\Aula\obj\Debug\net7.0\ref\Aula.dll

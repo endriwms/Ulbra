@@ -16,5 +16,7 @@ public class atividade03_iterativo {
         }
 
         System.out.printf("O fatorial de %d é %d", numero, fatorial);
+
+
     }
 }

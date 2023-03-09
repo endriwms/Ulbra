@@ -32,6 +32,5 @@ public class Atividade02 {
         double media = soma / notas.length;
         System.out.println("Por fim a média das notas é: " + media);
 
-
     }
 }

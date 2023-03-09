@@ -12,6 +12,7 @@ public class atividade01 {
 
         System.out.print("Digite a Primeira nota: ");
         n1 = input.nextInt();
+
         System.out.print("Digite o peso da primera prova: ");
         p1 = input.nextInt();
 
