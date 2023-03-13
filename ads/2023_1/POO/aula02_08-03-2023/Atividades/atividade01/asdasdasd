@@ -1,31 +1,76 @@
-<div id="app">
-  <div class="container">
-    <br>
-    <div class="form-inline" action="#">
-    <input type="text" id="form-name" v-model="item.name" placeholder="Name" class="form-control"> 
-    <input type="text" v-model="item.desc" placeholder="Description" class="form-control" v-on:keyup.enter="addItem">
-    <button @click="addItem" class="btn btn-dark"><i class="fas fa-plus"></i></button>
-      </div>
-      </td>
-    <br><br>
-    <table class="table table-striped table-bordered table-sm">
-      <thead class="thead-light">
-        <th>Name</th>
-        <th>Description</th>
-        <th class="col-2">Edit/Del</th>
-      </thead>
-      <tr v-for="(item, index) in items">
-        <td>
-          <input v-if="item.edit" type="text" v-model="item.name"  v-on:keyup.enter="item.edit = !item.edit">
-          <span v-else>{{item.name}} </span>
-        </td>
-        <td>
-          <input v-if="item.edit" type="text" v-model="item.desc" v-on:keyup.enter="item.edit = !item.edit">
-          <span v-else>{{item.age}} </span>
-        </td>
-        <td><button @click="item.edit = !item.edit" class="btn btn-info"><i class="far fa-edit"></i></button>
-          <button @click="removeItem(index)" class="btn btn-danger"><i class="far fa-trash-alt"></i></button></td>
-      </tr>
-    </table>
-  </div>
-</div>
+new Vue({
+  el: "#app",
+  data: {
+    name: "",
+    age: "",
+    youngPeople: [],
+    adultPeople: [],
+    elderlyPeople: []
+  },
+  methods: {
+    addPerson() {
+      const person = { name: this.name, age: this.age };
+      switch (true) {
+        case (this.age <= 19):
+          if (this.youngPeople.length < 5) {
+            this.youngPeople.push(person);
+          } else {
+            alert("A tabela de Jovens está cheia!");
+          }
+          break;
+        case (this.age >= 60):
+          if (this.elderlyPeople.length < 5) {
+            this.elderlyPeople.push(person);
+          } else {
+            alert("A tabela de Idosos está cheia!");
+          }
+          break;
+        default:
+          if (this.adultPeople.length < 5) {
+            this.adultPeople.push(person);
+          } else {
+            alert("A tabela de Adultos está cheia!");
+          }
+          break;
+      }
+      this.name = "";
+      this.age = "";
+      this.sortPeople();
+    },
+    editPerson(person) {
+      this.name = person.name;
+      this.age = person.age;
+      switch (true) {
+        case (this.youngPeople.includes(person)):
+          this.youngPeople.splice(this.youngPeople.indexOf(person), 1);
+          break;
+        case (this.elderlyPeople.includes(person)):
+          this.elderlyPeople.splice(this.elderlyPeople.indexOf(person), 1);
+          break;
+        default:
+          this.adultPeople.splice(this.adultPeople.indexOf(person), 1);
+          break;
+      }
+    this.sortPeople();
+    },
+    deletePerson(person) {
+      switch (true) {
+        case (this.youngPeople.includes(person)):
+          this.youngPeople.splice(this.youngPeople.indexOf(person), 1);
+          break;
+        case (this.elderlyPeople.includes(person)):
+          this.elderlyPeople.splice(this.elderlyPeople.indexOf(person), 1);
+          break;
+        default:
+          this.adultPeople.splice(this.adultPeople.indexOf(person), 1);
+          break;
+      }
+      this.sortPeople();
+    },
+    sortPeople() {
+      this.youngPeople.sort((a, b) => b.age - a.age);
+      this.adultPeople.sort((a, b) => b.age - a.age);
+      this.elderlyPeople.sort((a, b) => b.age - a.age);
+    }
+  }
+});
