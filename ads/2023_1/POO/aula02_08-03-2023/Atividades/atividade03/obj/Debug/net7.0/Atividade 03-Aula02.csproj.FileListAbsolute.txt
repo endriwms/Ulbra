@@ -1,0 +1,15 @@
+D:\Arquivos Ulbra\3º Semestre\Programação Orientada a Objetos\Atividade 03-Aula02\bin\Debug\net7.0\Atividade 03-Aula02.exe
+D:\Arquivos Ulbra\3º Semestre\Programação Orientada a Objetos\Atividade 03-Aula02\bin\Debug\net7.0\Atividade 03-Aula02.deps.json
+D:\Arquivos Ulbra\3º Semestre\Programação Orientada a Objetos\Atividade 03-Aula02\bin\Debug\net7.0\Atividade 03-Aula02.runtimeconfig.json
+D:\Arquivos Ulbra\3º Semestre\Programação Orientada a Objetos\Atividade 03-Aula02\bin\Debug\net7.0\Atividade 03-Aula02.dll
+D:\Arquivos Ulbra\3º Semestre\Programação Orientada a Objetos\Atividade 03-Aula02\bin\Debug\net7.0\Atividade 03-Aula02.pdb
+D:\Arquivos Ulbra\3º Semestre\Programação Orientada a Objetos\Atividade 03-Aula02\obj\Debug\net7.0\Atividade 03-Aula02.csproj.AssemblyReference.cache
+D:\Arquivos Ulbra\3º Semestre\Programação Orientada a Objetos\Atividade 03-Aula02\obj\Debug\net7.0\Atividade 03-Aula02.GeneratedMSBuildEditorConfig.editorconfig
+D:\Arquivos Ulbra\3º Semestre\Programação Orientada a Objetos\Atividade 03-Aula02\obj\Debug\net7.0\Atividade 03-Aula02.AssemblyInfoInputs.cache
+D:\Arquivos Ulbra\3º Semestre\Programação Orientada a Objetos\Atividade 03-Aula02\obj\Debug\net7.0\Atividade 03-Aula02.AssemblyInfo.cs
+D:\Arquivos Ulbra\3º Semestre\Programação Orientada a Objetos\Atividade 03-Aula02\obj\Debug\net7.0\Atividade 03-Aula02.csproj.CoreCompileInputs.cache
+D:\Arquivos Ulbra\3º Semestre\Programação Orientada a Objetos\Atividade 03-Aula02\obj\Debug\net7.0\Atividade 03-Aula02.dll
+D:\Arquivos Ulbra\3º Semestre\Programação Orientada a Objetos\Atividade 03-Aula02\obj\Debug\net7.0\refint\Atividade 03-Aula02.dll
+D:\Arquivos Ulbra\3º Semestre\Programação Orientada a Objetos\Atividade 03-Aula02\obj\Debug\net7.0\Atividade 03-Aula02.pdb
+D:\Arquivos Ulbra\3º Semestre\Programação Orientada a Objetos\Atividade 03-Aula02\obj\Debug\net7.0\Atividade 03-Aula02.genruntimeconfig.cache
+D:\Arquivos Ulbra\3º Semestre\Programação Orientada a Objetos\Atividade 03-Aula02\obj\Debug\net7.0\ref\Atividade 03-Aula02.dll
