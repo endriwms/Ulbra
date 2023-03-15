@@ -20,7 +20,7 @@ CREATE TABLE vendas (
 
 SELECT p.nome, sum(vp.quant) as total
 FROM produtos p
-  INNER JOIN vendas produtos vp
+  INNER JOIN vendas_produtos vp
     ON p.id = vp.produtos_id
   INNER JOIN vendas v
     ON v.id = vp.venda_id
