@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\coisas\\Endriw\\Ulbra\\ads\\2023_1\\POO\\aula04_22-03-2023\\Exercicios\\Exercicios.csproj": {}
+    "C:\\Users\\User\\Desktop\\Coisas\\Endriw\\Ulbra\\ads\\2023_1\\POO\\aula04_22-03-2023\\Exercicios\\Exercicios.csproj": {}
   },
   "projects": {
-    "D:\\coisas\\Endriw\\Ulbra\\ads\\2023_1\\POO\\aula04_22-03-2023\\Exercicios\\Exercicios.csproj": {
+    "C:\\Users\\User\\Desktop\\Coisas\\Endriw\\Ulbra\\ads\\2023_1\\POO\\aula04_22-03-2023\\Exercicios\\Exercicios.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\coisas\\Endriw\\Ulbra\\ads\\2023_1\\POO\\aula04_22-03-2023\\Exercicios\\Exercicios.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\Coisas\\Endriw\\Ulbra\\ads\\2023_1\\POO\\aula04_22-03-2023\\Exercicios\\Exercicios.csproj",
         "projectName": "Exercicios",
-        "projectPath": "D:\\coisas\\Endriw\\Ulbra\\ads\\2023_1\\POO\\aula04_22-03-2023\\Exercicios\\Exercicios.csproj",
-        "packagesPath": "C:\\Users\\Endriw Schiavenato\\.nuget\\packages\\",
-        "outputPath": "D:\\coisas\\Endriw\\Ulbra\\ads\\2023_1\\POO\\aula04_22-03-2023\\Exercicios\\obj\\",
+        "projectPath": "C:\\Users\\User\\Desktop\\Coisas\\Endriw\\Ulbra\\ads\\2023_1\\POO\\aula04_22-03-2023\\Exercicios\\Exercicios.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\Coisas\\Endriw\\Ulbra\\ads\\2023_1\\POO\\aula04_22-03-2023\\Exercicios\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Endriw Schiavenato\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

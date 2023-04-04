@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\Coisas\Endriw\Ulbra\ads\2023_1\POO\aula02_08-03-2023\Atividades\atividade02\bin\Debug\net7.0\atividade02.exe
+C:\Users\User\Desktop\Coisas\Endriw\Ulbra\ads\2023_1\POO\aula02_08-03-2023\Atividades\atividade02\bin\Debug\net7.0\atividade02.deps.json
+C:\Users\User\Desktop\Coisas\Endriw\Ulbra\ads\2023_1\POO\aula02_08-03-2023\Atividades\atividade02\bin\Debug\net7.0\atividade02.runtimeconfig.json
+C:\Users\User\Desktop\Coisas\Endriw\Ulbra\ads\2023_1\POO\aula02_08-03-2023\Atividades\atividade02\bin\Debug\net7.0\atividade02.dll
+C:\Users\User\Desktop\Coisas\Endriw\Ulbra\ads\2023_1\POO\aula02_08-03-2023\Atividades\atividade02\bin\Debug\net7.0\atividade02.pdb
+C:\Users\User\Desktop\Coisas\Endriw\Ulbra\ads\2023_1\POO\aula02_08-03-2023\Atividades\atividade02\obj\Debug\net7.0\atividade02.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Coisas\Endriw\Ulbra\ads\2023_1\POO\aula02_08-03-2023\Atividades\atividade02\obj\Debug\net7.0\atividade02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Coisas\Endriw\Ulbra\ads\2023_1\POO\aula02_08-03-2023\Atividades\atividade02\obj\Debug\net7.0\atividade02.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Coisas\Endriw\Ulbra\ads\2023_1\POO\aula02_08-03-2023\Atividades\atividade02\obj\Debug\net7.0\atividade02.AssemblyInfo.cs
+C:\Users\User\Desktop\Coisas\Endriw\Ulbra\ads\2023_1\POO\aula02_08-03-2023\Atividades\atividade02\obj\Debug\net7.0\atividade02.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Coisas\Endriw\Ulbra\ads\2023_1\POO\aula02_08-03-2023\Atividades\atividade02\obj\Debug\net7.0\atividade02.dll
+C:\Users\User\Desktop\Coisas\Endriw\Ulbra\ads\2023_1\POO\aula02_08-03-2023\Atividades\atividade02\obj\Debug\net7.0\refint\atividade02.dll
+C:\Users\User\Desktop\Coisas\Endriw\Ulbra\ads\2023_1\POO\aula02_08-03-2023\Atividades\atividade02\obj\Debug\net7.0\atividade02.pdb
+C:\Users\User\Desktop\Coisas\Endriw\Ulbra\ads\2023_1\POO\aula02_08-03-2023\Atividades\atividade02\obj\Debug\net7.0\atividade02.genruntimeconfig.cache
+C:\Users\User\Desktop\Coisas\Endriw\Ulbra\ads\2023_1\POO\aula02_08-03-2023\Atividades\atividade02\obj\Debug\net7.0\ref\atividade02.dll

@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Endriw Schiavenato\\.nuget\\packages\\": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\coisas\\Endriw\\Ulbra\\ads\\2023_1\\POO\\aula02_08-03-2023\\Atividades\\calculadora01\\Calculadora.csproj",
-      "projectName": "Calculadora",
-      "projectPath": "D:\\coisas\\Endriw\\Ulbra\\ads\\2023_1\\POO\\aula02_08-03-2023\\Atividades\\calculadora01\\Calculadora.csproj",
-      "packagesPath": "C:\\Users\\Endriw Schiavenato\\.nuget\\packages\\",
-      "outputPath": "D:\\coisas\\Endriw\\Ulbra\\ads\\2023_1\\POO\\aula02_08-03-2023\\Atividades\\calculadora01\\obj\\",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\Coisas\\Endriw\\Ulbra\\ads\\2023_1\\POO\\aula02_08-03-2023\\Atividades\\atividade01\\atividade01.csproj",
+      "projectName": "atividade01",
+      "projectPath": "C:\\Users\\User\\Desktop\\Coisas\\Endriw\\Ulbra\\ads\\2023_1\\POO\\aula02_08-03-2023\\Atividades\\atividade01\\atividade01.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\Coisas\\Endriw\\Ulbra\\ads\\2023_1\\POO\\aula02_08-03-2023\\Atividades\\atividade01\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Endriw Schiavenato\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

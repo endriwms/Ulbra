@@ -8,7 +8,6 @@ namespace atividade02 {
         public string? Name { get; set; }
         public int Age { get; set; }
 
-
         public void Apresentar() {
             Console.WriteLine($"Meu nome é {Name} e eu tenho {Age} anos.");
         }

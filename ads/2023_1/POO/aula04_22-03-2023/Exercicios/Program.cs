@@ -13,10 +13,10 @@ namespace exercicios {
         Console.WriteLine("4 - Excluir uma pessoa");
         Console.WriteLine("5 - Sair");
 
-        string opcao = Console.ReadLine();
+        string option = Console.ReadLine();
         Console.WriteLine();
 
-        switch (opcao) {
+        switch (option) {
           case "1":
             Console.Write("Informe o nome da pessoa: ");
             string name = Console.ReadLine();
