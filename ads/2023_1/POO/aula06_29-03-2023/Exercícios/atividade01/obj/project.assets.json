@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/media/endriw/729C42D89C42970F/coisas/Endriw/Faculdade/Ulbra/ads/2023_1/POO/aula04_22-03-2023/Exercicios/Exercicios.csproj",
-      "projectName": "Exercicios",
-      "projectPath": "/media/endriw/729C42D89C42970F/coisas/Endriw/Faculdade/Ulbra/ads/2023_1/POO/aula04_22-03-2023/Exercicios/Exercicios.csproj",
+      "projectUniqueName": "/media/endriw/729C42D89C42970F/coisas/Endriw/Faculdade/Ulbra/ads/2023_1/POO/aula06_29-03-2023/Exercícios/atividade01/atividade01.csproj",
+      "projectName": "atividade01",
+      "projectPath": "/media/endriw/729C42D89C42970F/coisas/Endriw/Faculdade/Ulbra/ads/2023_1/POO/aula06_29-03-2023/Exercícios/atividade01/atividade01.csproj",
       "packagesPath": "/home/endriw/.nuget/packages/",
-      "outputPath": "/media/endriw/729C42D89C42970F/coisas/Endriw/Faculdade/Ulbra/ads/2023_1/POO/aula04_22-03-2023/Exercicios/obj/",
+      "outputPath": "/media/endriw/729C42D89C42970F/coisas/Endriw/Faculdade/Ulbra/ads/2023_1/POO/aula06_29-03-2023/Exercícios/atividade01/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/endriw/.nuget/NuGet/NuGet.Config"
