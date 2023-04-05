@@ -2,7 +2,9 @@ using System;
 
 public abstract class Animal {
   public string Nome { get; set; }
-  public abstract void Falar();
+  public virtual void Falar(){
+    
+  }
 }
 
 public class Cachorro : Animal {
