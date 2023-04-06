@@ -1,5 +1,5 @@
 ﻿using System;
-
+using atividade02;
 public class Program {
   public static void Main() {
     Veiculo veiculo1 = new Carro();
