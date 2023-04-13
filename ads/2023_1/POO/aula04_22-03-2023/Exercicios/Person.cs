@@ -30,7 +30,7 @@ namespace exercicios {
       // A expressão lambda p => p.Id == person.Id verifica se o Id do objeto Person p é igual ao Id do objeto Person fornecido como parâmetro, se não houver ID, o método FindIndex retorna -1.
       int index = personList.FindIndex(p => p.Id == person.Id);
       if (index != -1) {
-          personList[index] = person;
+        personList[index] = person;
       }
     }
 
