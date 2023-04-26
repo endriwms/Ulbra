@@ -1,0 +1,15 @@
+D:\Arquivos Ulbra\3º Semestre\Programação Orientada a Objetos\Atividade (Interfaces)\Atividade05\bin\Debug\net7.0\Atividade05.exe
+D:\Arquivos Ulbra\3º Semestre\Programação Orientada a Objetos\Atividade (Interfaces)\Atividade05\bin\Debug\net7.0\Atividade05.deps.json
+D:\Arquivos Ulbra\3º Semestre\Programação Orientada a Objetos\Atividade (Interfaces)\Atividade05\bin\Debug\net7.0\Atividade05.runtimeconfig.json
+D:\Arquivos Ulbra\3º Semestre\Programação Orientada a Objetos\Atividade (Interfaces)\Atividade05\bin\Debug\net7.0\Atividade05.dll
+D:\Arquivos Ulbra\3º Semestre\Programação Orientada a Objetos\Atividade (Interfaces)\Atividade05\bin\Debug\net7.0\Atividade05.pdb
+D:\Arquivos Ulbra\3º Semestre\Programação Orientada a Objetos\Atividade (Interfaces)\Atividade05\obj\Debug\net7.0\Atividade05.csproj.AssemblyReference.cache
+D:\Arquivos Ulbra\3º Semestre\Programação Orientada a Objetos\Atividade (Interfaces)\Atividade05\obj\Debug\net7.0\Atividade05.GeneratedMSBuildEditorConfig.editorconfig
+D:\Arquivos Ulbra\3º Semestre\Programação Orientada a Objetos\Atividade (Interfaces)\Atividade05\obj\Debug\net7.0\Atividade05.AssemblyInfoInputs.cache
+D:\Arquivos Ulbra\3º Semestre\Programação Orientada a Objetos\Atividade (Interfaces)\Atividade05\obj\Debug\net7.0\Atividade05.AssemblyInfo.cs
+D:\Arquivos Ulbra\3º Semestre\Programação Orientada a Objetos\Atividade (Interfaces)\Atividade05\obj\Debug\net7.0\Atividade05.csproj.CoreCompileInputs.cache
+D:\Arquivos Ulbra\3º Semestre\Programação Orientada a Objetos\Atividade (Interfaces)\Atividade05\obj\Debug\net7.0\Atividade05.dll
+D:\Arquivos Ulbra\3º Semestre\Programação Orientada a Objetos\Atividade (Interfaces)\Atividade05\obj\Debug\net7.0\refint\Atividade05.dll
+D:\Arquivos Ulbra\3º Semestre\Programação Orientada a Objetos\Atividade (Interfaces)\Atividade05\obj\Debug\net7.0\Atividade05.pdb
+D:\Arquivos Ulbra\3º Semestre\Programação Orientada a Objetos\Atividade (Interfaces)\Atividade05\obj\Debug\net7.0\Atividade05.genruntimeconfig.cache
+D:\Arquivos Ulbra\3º Semestre\Programação Orientada a Objetos\Atividade (Interfaces)\Atividade05\obj\Debug\net7.0\ref\Atividade05.dll
