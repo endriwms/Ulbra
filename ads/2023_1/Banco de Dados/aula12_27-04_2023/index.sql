@@ -53,7 +53,23 @@ INSERT INTO Orcamentos_produtos (qtd, valor, status, id_produtos) VALUES (3, 599
 INSERT INTO Orcamentos_produtos (qtd, valor, status, id_produtos) VALUES (2, 59.80, 'Disponível', 1);
 
 
+DELIMITER //
+CREATE TRIGGER atualiza_estoque_orcamentos_produtos
+AFTER INSERT ON Orcamentos_produtos
+FOR EACH ROW
+BEGIN
+    IF NEW.status = 'Disponível' THEN
+        UPDATE Produtos SET qtd_estoque = qtd_estoque - NEW.qtd WHERE id_produtos = NEW.id_produtos;
+    ELSEIF NEW.status = 'Indisponível' OR NEW.status = 'Cancelado' THEN
+        UPDATE Produtos SET qtd_estoque = qtd_estoque + NEW.qtd WHERE id_produtos = NEW.id_produtos;
+    END IF;
+END//
+DELIMITER ;
+
+SHOW TRIGGERS FROM triggers_db LIKE 'Orcamentos_produtos';
+
 -- Faça um trigger para armazenar em uma tabela chamada produtos_atualizados (prd_codigo, prd_qtd_anterior, prd_qtd_atualizada, prd_valor) quando ocorrer quaisquer alterações nos atributos da tabela produtos. No entanto, caso a alteração atribua o valor zero para o atributo prd_qtd_estoque, a tabela produtos_em_falta deverá ser alimentada com as mesmas informações da tabela produto, exceto o atributo prd_valor. Além disso, o atributo prd_status do produto atualizado deve ser modificado para NULL e o atributo orp_status de todos os orcamentos_produtos desse produto deverá ser modificado também para NULL.
+
 DELIMITER //
 
 CREATE TRIGGER produtos_trigger BEFORE UPDATE ON Produtos
