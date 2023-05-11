@@ -1,8 +1,0 @@
-<component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="index.sql" type="DatabaseScript" editBeforeRun="true" nameIsGenerated="true">
-    <script-file value="$PROJECT_DIR$/index.sql" />
-    <script-mode>FILE</script-mode>
-    <data-source id="ed2ed426-dd34-45c0-b5ee-f0850dcd486c" namespace="schema/&quot;ativ_triggers&quot;" />
-    <method v="2" />
-  </configuration>
-</component>
