@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c0832a68-43e1-4810-a61b-f8636b963c81" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../.idea/dataSources/dce286f5-e38f-482e-82e2-ce47ff36da75.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../.idea/dataSources/dce286f5-e38f-482e-82e2-ce47ff36da75/storage_v2/_src_/schema/ap1.4nkBAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../.idea/dataSources/dce286f5-e38f-482e-82e2-ce47ff36da75/storage_v2/_src_/schema/ap1.4nkBAA.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../.idea/dataSources/dce286f5-e38f-482e-82e2-ce47ff36da75/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../.idea/dataSources/dce286f5-e38f-482e-82e2-ce47ff36da75/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../.idea/dataSources/dce286f5-e38f-482e-82e2-ce47ff36da75/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula13_04-05-2023/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula13_04-05-2023/.idea/aula13_04-05-2023.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula13_04-05-2023/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula13_04-05-2023/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula13_04-05-2023/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula13_04-05-2023/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula13_04-05-2023/index.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula10_26-04-2023/atividade01/Boleto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula10_26-04-2023/atividade01/CartaoCredito.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula10_26-04-2023/atividade01/Cliente.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula10_26-04-2023/atividade01/IPagamento.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula10_26-04-2023/atividade01/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula10_26-04-2023/atividade01/atividade01.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula10_26-04-2023/atividade01/bin/Debug/net7.0/atividade01.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula10_26-04-2023/atividade01/bin/Debug/net7.0/atividade01.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula10_26-04-2023/atividade01/bin/Debug/net7.0/atividade01.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula10_26-04-2023/atividade01/bin/Debug/net7.0/atividade01.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula10_26-04-2023/atividade01/bin/Debug/net7.0/atividade01.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula10_26-04-2023/atividade01/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula10_26-04-2023/atividade01/obj/Debug/net7.0/apphost.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula10_26-04-2023/atividade01/obj/Debug/net7.0/atividade01.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula10_26-04-2023/atividade01/obj/Debug/net7.0/atividade01.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula10_26-04-2023/atividade01/obj/Debug/net7.0/atividade01.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula10_26-04-2023/atividade01/obj/Debug/net7.0/atividade01.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula10_26-04-2023/atividade01/obj/Debug/net7.0/atividade01.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula10_26-04-2023/atividade01/obj/Debug/net7.0/atividade01.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula10_26-04-2023/atividade01/obj/Debug/net7.0/atividade01.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula10_26-04-2023/atividade01/obj/Debug/net7.0/atividade01.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula10_26-04-2023/atividade01/obj/Debug/net7.0/atividade01.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula10_26-04-2023/atividade01/obj/Debug/net7.0/atividade01.genruntimeconfig.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula10_26-04-2023/atividade01/obj/Debug/net7.0/atividade01.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula10_26-04-2023/atividade01/obj/Debug/net7.0/ref/atividade01.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula10_26-04-2023/atividade01/obj/Debug/net7.0/refint/atividade01.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula10_26-04-2023/atividade01/obj/atividade01.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula10_26-04-2023/atividade01/obj/atividade01.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula10_26-04-2023/atividade01/obj/atividade01.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula10_26-04-2023/atividade01/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula10_26-04-2023/atividade01/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula10_26-04-2023/atividade02.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula10_26-04-2023/atividade02/Aluno.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula10_26-04-2023/atividade02/Escola.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula10_26-04-2023/atividade02/IPessoa.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula10_26-04-2023/atividade02/Professor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula10_26-04-2023/atividade02/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula10_26-04-2023/atividade02/atividade02.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula10_26-04-2023/atividade02/bin/Debug/net7.0/atividade02.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula10_26-04-2023/atividade02/bin/Debug/net7.0/atividade02.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula10_26-04-2023/atividade02/bin/Debug/net7.0/atividade02.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula10_26-04-2023/atividade02/bin/Debug/net7.0/atividade02.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula10_26-04-2023/atividade02/bin/Debug/net7.0/atividade02.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula10_26-04-2023/atividade02/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula10_26-04-2023/atividade02/obj/Debug/net7.0/apphost.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula10_26-04-2023/atividade02/obj/Debug/net7.0/atividade02.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula10_26-04-2023/atividade02/obj/Debug/net7.0/atividade02.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula10_26-04-2023/atividade02/obj/Debug/net7.0/atividade02.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula10_26-04-2023/atividade02/obj/Debug/net7.0/atividade02.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula10_26-04-2023/atividade02/obj/Debug/net7.0/atividade02.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula10_26-04-2023/atividade02/obj/Debug/net7.0/atividade02.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula10_26-04-2023/atividade02/obj/Debug/net7.0/atividade02.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula10_26-04-2023/atividade02/obj/Debug/net7.0/atividade02.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula10_26-04-2023/atividade02/obj/Debug/net7.0/atividade02.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula10_26-04-2023/atividade02/obj/Debug/net7.0/atividade02.genruntimeconfig.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula10_26-04-2023/atividade02/obj/Debug/net7.0/atividade02.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula10_26-04-2023/atividade02/obj/Debug/net7.0/ref/atividade02.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula10_26-04-2023/atividade02/obj/Debug/net7.0/refint/atividade02.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula10_26-04-2023/atividade02/obj/atividade02.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula10_26-04-2023/atividade02/obj/atividade02.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula10_26-04-2023/atividade02/obj/atividade02.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula10_26-04-2023/atividade02/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula10_26-04-2023/atividade02/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/.vscode/tasks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/Data/DataContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/Domain/Person.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/Domain/Product.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/Migrations/20230510222555_InitialMigrations.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/Migrations/20230510222555_InitialMigrations.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/Migrations/DataContextModelSnapshot.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/aula12_03_05_2023.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/bin/Debug/net7.0/Humanizer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/bin/Debug/net7.0/Microsoft.Data.Sqlite.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Design.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Sqlite.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/bin/Debug/net7.0/Microsoft.Extensions.Caching.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/bin/Debug/net7.0/Microsoft.Extensions.Caching.Memory.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/bin/Debug/net7.0/Microsoft.Extensions.Configuration.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/bin/Debug/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/bin/Debug/net7.0/Microsoft.Extensions.DependencyInjection.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/bin/Debug/net7.0/Microsoft.Extensions.Logging.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/bin/Debug/net7.0/Microsoft.Extensions.Logging.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/bin/Debug/net7.0/Microsoft.Extensions.Options.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/bin/Debug/net7.0/Microsoft.Extensions.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/bin/Debug/net7.0/Mono.TextTemplating.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/bin/Debug/net7.0/SQLitePCLRaw.batteries_v2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/bin/Debug/net7.0/SQLitePCLRaw.core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/bin/Debug/net7.0/SQLitePCLRaw.provider.e_sqlite3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/bin/Debug/net7.0/System.CodeDom.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/bin/Debug/net7.0/aula12_03_05_2023.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/bin/Debug/net7.0/aula12_03_05_2023.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/bin/Debug/net7.0/aula12_03_05_2023.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/bin/Debug/net7.0/aula12_03_05_2023.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/bin/Debug/net7.0/aula12_03_05_2023.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/bin/Debug/net7.0/runtimes/alpine-arm/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/bin/Debug/net7.0/runtimes/alpine-arm64/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/bin/Debug/net7.0/runtimes/alpine-x64/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/bin/Debug/net7.0/runtimes/browser-wasm/nativeassets/net7.0/e_sqlite3.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/bin/Debug/net7.0/runtimes/linux-arm/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/bin/Debug/net7.0/runtimes/linux-arm64/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/bin/Debug/net7.0/runtimes/linux-armel/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/bin/Debug/net7.0/runtimes/linux-mips64/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/bin/Debug/net7.0/runtimes/linux-musl-arm/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/bin/Debug/net7.0/runtimes/linux-musl-arm64/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/bin/Debug/net7.0/runtimes/linux-musl-x64/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/bin/Debug/net7.0/runtimes/linux-ppc64le/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/bin/Debug/net7.0/runtimes/linux-s390x/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/bin/Debug/net7.0/runtimes/linux-x64/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/bin/Debug/net7.0/runtimes/linux-x86/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/bin/Debug/net7.0/runtimes/maccatalyst-arm64/native/libe_sqlite3.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/bin/Debug/net7.0/runtimes/maccatalyst-x64/native/libe_sqlite3.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/bin/Debug/net7.0/runtimes/osx-arm64/native/libe_sqlite3.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/bin/Debug/net7.0/runtimes/osx-x64/native/libe_sqlite3.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/bin/Debug/net7.0/runtimes/win-arm/native/e_sqlite3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/bin/Debug/net7.0/runtimes/win-arm64/native/e_sqlite3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/bin/Debug/net7.0/runtimes/win-x64/native/e_sqlite3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/bin/Debug/net7.0/runtimes/win-x86/native/e_sqlite3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/obj/Debug/net7.0/apphost.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/obj/Debug/net7.0/aula12_03-05-2023.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/obj/Debug/net7.0/aula12_03-05-2023.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/obj/Debug/net7.0/aula12_03-05-2023.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/obj/Debug/net7.0/aula12_03-05-2023.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/obj/Debug/net7.0/aula12_03-05-2023.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/obj/Debug/net7.0/aula12_03-05-2023.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/obj/Debug/net7.0/aula12_03_05_2023.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/obj/Debug/net7.0/aula12_03_05_2023.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/obj/Debug/net7.0/aula12_03_05_2023.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/obj/Debug/net7.0/aula12_03_05_2023.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/obj/Debug/net7.0/aula12_03_05_2023.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/obj/Debug/net7.0/aula12_03_05_2023.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/obj/Debug/net7.0/aula12_03_05_2023.csproj.CopyComplete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/obj/Debug/net7.0/aula12_03_05_2023.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/obj/Debug/net7.0/aula12_03_05_2023.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/obj/Debug/net7.0/aula12_03_05_2023.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/obj/Debug/net7.0/aula12_03_05_2023.genruntimeconfig.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/obj/Debug/net7.0/aula12_03_05_2023.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/obj/Debug/net7.0/ref/aula12_03_05_2023.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/obj/Debug/net7.0/refint/aula12_03_05_2023.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/obj/aula12_03-05-2023.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/obj/aula12_03-05-2023.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/obj/aula12_03-05-2023.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/obj/aula12_03_05_2023.csproj.EntityFrameworkCore.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/obj/aula12_03_05_2023.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/obj/aula12_03_05_2023.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/obj/aula12_03_05_2023.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula12_03-05-2023/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/Data/DataContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/Migrations/20230510225327_InitialMigrations.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/Migrations/20230510225327_InitialMigrations.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/Migrations/DataContextModelSnapshot.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/aula13_continuacaoEF.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/bin/Debug/net7.0/Humanizer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/bin/Debug/net7.0/Microsoft.Data.Sqlite.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Design.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Sqlite.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/bin/Debug/net7.0/Microsoft.Extensions.Caching.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/bin/Debug/net7.0/Microsoft.Extensions.Caching.Memory.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/bin/Debug/net7.0/Microsoft.Extensions.Configuration.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/bin/Debug/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/bin/Debug/net7.0/Microsoft.Extensions.DependencyInjection.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/bin/Debug/net7.0/Microsoft.Extensions.Logging.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/bin/Debug/net7.0/Microsoft.Extensions.Logging.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/bin/Debug/net7.0/Microsoft.Extensions.Options.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/bin/Debug/net7.0/Microsoft.Extensions.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/bin/Debug/net7.0/Mono.TextTemplating.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/bin/Debug/net7.0/SQLitePCLRaw.batteries_v2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/bin/Debug/net7.0/SQLitePCLRaw.core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/bin/Debug/net7.0/SQLitePCLRaw.provider.e_sqlite3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/bin/Debug/net7.0/System.CodeDom.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/bin/Debug/net7.0/aula13_continuacaoEF.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/bin/Debug/net7.0/aula13_continuacaoEF.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/bin/Debug/net7.0/aula13_continuacaoEF.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/bin/Debug/net7.0/aula13_continuacaoEF.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/bin/Debug/net7.0/aula13_continuacaoEF.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/bin/Debug/net7.0/runtimes/alpine-arm/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/bin/Debug/net7.0/runtimes/alpine-arm64/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/bin/Debug/net7.0/runtimes/alpine-x64/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/bin/Debug/net7.0/runtimes/browser-wasm/nativeassets/net7.0/e_sqlite3.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/bin/Debug/net7.0/runtimes/linux-arm/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/bin/Debug/net7.0/runtimes/linux-arm64/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/bin/Debug/net7.0/runtimes/linux-armel/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/bin/Debug/net7.0/runtimes/linux-mips64/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/bin/Debug/net7.0/runtimes/linux-musl-arm/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/bin/Debug/net7.0/runtimes/linux-musl-arm64/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/bin/Debug/net7.0/runtimes/linux-musl-x64/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/bin/Debug/net7.0/runtimes/linux-ppc64le/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/bin/Debug/net7.0/runtimes/linux-s390x/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/bin/Debug/net7.0/runtimes/linux-x64/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/bin/Debug/net7.0/runtimes/linux-x86/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/bin/Debug/net7.0/runtimes/maccatalyst-arm64/native/libe_sqlite3.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/bin/Debug/net7.0/runtimes/maccatalyst-x64/native/libe_sqlite3.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/bin/Debug/net7.0/runtimes/osx-arm64/native/libe_sqlite3.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/bin/Debug/net7.0/runtimes/osx-x64/native/libe_sqlite3.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/bin/Debug/net7.0/runtimes/win-arm/native/e_sqlite3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/bin/Debug/net7.0/runtimes/win-arm64/native/e_sqlite3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/bin/Debug/net7.0/runtimes/win-x64/native/e_sqlite3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/bin/Debug/net7.0/runtimes/win-x86/native/e_sqlite3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/obj/Debug/net7.0/apphost.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/obj/Debug/net7.0/aula13_continuacaoEF.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/obj/Debug/net7.0/aula13_continuacaoEF.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/obj/Debug/net7.0/aula13_continuacaoEF.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/obj/Debug/net7.0/aula13_continuacaoEF.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/obj/Debug/net7.0/aula13_continuacaoEF.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/obj/Debug/net7.0/aula13_continuacaoEF.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/obj/Debug/net7.0/aula13_continuacaoEF.csproj.CopyComplete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/obj/Debug/net7.0/aula13_continuacaoEF.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/obj/Debug/net7.0/aula13_continuacaoEF.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/obj/Debug/net7.0/aula13_continuacaoEF.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/obj/Debug/net7.0/aula13_continuacaoEF.genruntimeconfig.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/obj/Debug/net7.0/aula13_continuacaoEF.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/obj/Debug/net7.0/ref/aula13_continuacaoEF.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/obj/Debug/net7.0/refint/aula13_continuacaoEF.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/obj/aula13_continuacaoEF.csproj.EntityFrameworkCore.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/obj/aula13_continuacaoEF.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/obj/aula13_continuacaoEF.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/obj/aula13_continuacaoEF.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../POO/aula13_10-05-2023/aula13_continuacaoEF/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula09_13-04-2023/AP1/index.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../aula09_13-04-2023/AP1/index.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.sql" beforeDir="false" afterPath="$PROJECT_DIR$/index.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Laboratório de Programação/aula09_05-05-2023/tde_camp_cs/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../Laboratório de Programação/aula09_28-04-2023/tde_camp_cs/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Laboratório de Programação/aula09_05-05-2023/tde_camp_cs/src/Equipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Laboratório de Programação/aula09_28-04-2023/tde_camp_cs/src/Equipe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Laboratório de Programação/aula09_05-05-2023/tde_camp_cs/src/GerenciamentoCampeonato.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Laboratório de Programação/aula09_28-04-2023/tde_camp_cs/src/GerenciamentoCampeonato.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Laboratório de Programação/aula09_05-05-2023/tde_camp_cs/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Laboratório de Programação/aula09_28-04-2023/tde_camp_cs/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Laboratório de Programação/aula09_05-05-2023/tde_camp_cs/tde_camp_cs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Laboratório de Programação/aula09_28-04-2023/tde_camp_cs/tde_camp_cs.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POO/aula09_15_04_2023/Atividade01/obj/Debug/net7.0/Atividade (Interfaces).GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../../POO/aula09_15_04_2023/Atividade01/obj/Debug/net7.0/Atividade (Interfaces).GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POO/aula09_15_04_2023/Atividade01/obj/Debug/net7.0/Atividade (Interfaces).assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../POO/aula09_15_04_2023/Atividade01/obj/Debug/net7.0/Atividade (Interfaces).assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POO/aula09_15_04_2023/Atividade01/obj/Debug/net7.0/Atividade (Interfaces).csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../POO/aula09_15_04_2023/Atividade01/obj/Debug/net7.0/Atividade (Interfaces).csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POO/aula09_15_04_2023/Atividade02/obj/Debug/net7.0/Atividade02.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../../POO/aula09_15_04_2023/Atividade02/obj/Debug/net7.0/Atividade02.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POO/aula09_15_04_2023/Atividade02/obj/Debug/net7.0/Atividade02.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../POO/aula09_15_04_2023/Atividade02/obj/Debug/net7.0/Atividade02.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POO/aula09_15_04_2023/Atividade02/obj/Debug/net7.0/Atividade02.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../POO/aula09_15_04_2023/Atividade02/obj/Debug/net7.0/Atividade02.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POO/aula09_15_04_2023/Atividade03/obj/Debug/net7.0/Atividade03.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../../POO/aula09_15_04_2023/Atividade03/obj/Debug/net7.0/Atividade03.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POO/aula09_15_04_2023/Atividade03/obj/Debug/net7.0/Atividade03.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../POO/aula09_15_04_2023/Atividade03/obj/Debug/net7.0/Atividade03.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POO/aula09_15_04_2023/Atividade03/obj/Debug/net7.0/Atividade03.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../POO/aula09_15_04_2023/Atividade03/obj/Debug/net7.0/Atividade03.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POO/aula09_15_04_2023/Atividade04/obj/Debug/net7.0/Atividade04.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../../POO/aula09_15_04_2023/Atividade04/obj/Debug/net7.0/Atividade04.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POO/aula09_15_04_2023/Atividade04/obj/Debug/net7.0/Atividade04.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../POO/aula09_15_04_2023/Atividade04/obj/Debug/net7.0/Atividade04.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POO/aula09_15_04_2023/Atividade04/obj/Debug/net7.0/Atividade04.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../POO/aula09_15_04_2023/Atividade04/obj/Debug/net7.0/Atividade04.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POO/aula09_15_04_2023/Atividade05/obj/Debug/net7.0/Atividade05.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../../POO/aula09_15_04_2023/Atividade05/obj/Debug/net7.0/Atividade05.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POO/aula09_15_04_2023/Atividade05/obj/Debug/net7.0/Atividade05.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../POO/aula09_15_04_2023/Atividade05/obj/Debug/net7.0/Atividade05.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POO/aula09_15_04_2023/Atividade05/obj/Debug/net7.0/Atividade05.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../POO/aula09_15_04_2023/Atividade05/obj/Debug/net7.0/Atividade05.csproj.AssemblyReference.cache" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/index.sql" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectId" id="2PLYTLTWFhEkX6oMR62Kh7DD9os" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenDatabaseViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+</project>
