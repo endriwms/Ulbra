@@ -1,5 +1,7 @@
 public class Cachorro extends Animal {
-  public void latir() {
+
+  @Override
+  public void emitirSom() {
     System.out.println("Au au");
   }
 }

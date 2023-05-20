@@ -94,3 +94,17 @@ DELIMITER ;
 UPDATE Produtos SET qtd_estoque = 0 WHERE id_produtos = 1;
 UPDATE Produtos SET qtd_estoque = 2 WHERE id_produtos = 2;
 UPDATE Produtos SET qtd_estoque = 4 WHERE id_produtos = 1;
+
+
+-- Correção dos triggers
+DELIMITER \\
+CREATE TRIGGER trigger_atualiza_estoque_produto after update on Orcamentos_produtos
+    FOR EACH ROW
+BEGIN
+    IF NEW.orp_status = 2 then
+        update produtos set qtd_estoque = qtd_estoque + OLD.qtd
+        where codigo = old.prd_codigo
+    else
+        update produtos set qtd_estoque
+    end if \\
+end \\

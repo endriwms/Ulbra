@@ -5,6 +5,5 @@ public class Main {
 
     animal.emitirSom(); // Imprime "Som do animal"
     cachorro.emitirSom(); // Também imprime "Som do animal"
-    cachorro.latir(); // Imprime "Au au"
   }
 }

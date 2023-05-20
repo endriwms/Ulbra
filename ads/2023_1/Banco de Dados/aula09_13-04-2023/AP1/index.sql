@@ -24,17 +24,17 @@ CREATE TABLE ingresso (
 
 CREATE TABLE palestrante (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    nome VARCHAR(255) NOT NULL,
-    email VARCHAR(255) NOT NULL,
-    bio VARCHAR(255)
+    nome VARCHAR(15) NOT NULL,
+    email VARCHAR(15) NOT NULL,
+    bio VARCHAR(100)
 );
 
 CREATE TABLE workshop (
     id INT AUTO_INCREMENT PRIMARY KEY,
     evento_id INT NOT NULL,
     palestrante_id INT NOT NULL,
-    titulo VARCHAR(255) NOT NULL,
-    descricao TEXT,
+    titulo VARCHAR(30) NOT NULL,
+    descricao VARCHAR(255),
     CONSTRAINT fk_evento_workshop
         FOREIGN KEY (evento_id) REFERENCES evento(id)
         ON DELETE RESTRICT
