@@ -1,4 +1,4 @@
-public class Student {
+public class Estudante {
     private String nome;
     private int idade;
     private int pontos;
@@ -18,8 +18,8 @@ public class Student {
     public void setIdade(int idade) {
         this.idade = idade;
     }
-
     public int getPontos() {
+
         return pontos;
     }
 
