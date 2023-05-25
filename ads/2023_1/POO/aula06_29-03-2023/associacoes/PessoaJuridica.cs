@@ -7,6 +7,6 @@ namespace associacoes
 {
     public class PessoaJuridica : Pessoa
     {
-        public string CNPJ { get; set }
+        public string CNPJ { get; set; }
     }
 }
