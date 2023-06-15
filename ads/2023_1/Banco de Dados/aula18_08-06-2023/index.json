@@ -1,0 +1,45 @@
+// Tabela Detentos:
+
+// DetentoID (chave primária)
+// Nome
+// Bloco
+// Cela
+{
+  "_id": ObjectId("DetentoID"),
+  "nome": "Nome do Detento",
+  "bloco": "Bloco do Detento",
+  "cela": "Cela do Detento"
+}
+
+
+// Tabela Visitantes:
+
+// VisitanteID (chave primária)
+// Nome
+// Relacionamento (relação com o detento)
+
+{
+  "_id": ObjectId("VisitanteID"),
+  "nome": "Nome do Visitante",
+  "relacionamento": "Relação com o Detento"
+}
+
+
+// Tabela Visitas:
+
+// VisitaID (chave primária)
+// DetentoID (chave estrangeira)
+// VisitanteID (chave estrangeira)
+// DataVisita
+// HoraEntrada
+// HoraSaida
+
+{
+  "_id": ObjectId("VisitaID"),
+  "detentoID": ObjectId("DetentoID"),
+  "visitanteID": ObjectId("VisitanteID"),
+  "dataVisita": "Data da Visita",
+  "horaEntrada": "Hora de Entrada",
+  "horaSaida": "Hora de Saída"
+}
+
