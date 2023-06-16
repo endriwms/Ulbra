@@ -1,0 +1,3 @@
+interface ICorredor {
+  void correr();
+}

@@ -1,0 +1,3 @@
+interface Carregável {
+  void carga();
+}
