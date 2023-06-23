@@ -1,0 +1,3 @@
+interface Treinavel {
+  void realizarTruque();
+}
