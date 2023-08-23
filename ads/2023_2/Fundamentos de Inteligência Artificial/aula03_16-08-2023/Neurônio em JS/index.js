@@ -16,7 +16,51 @@ function funcaoSigmoide(input, weight) {
   return s >= 0 ? 1 - 1 / (1 + s) : -1 + 1 / (1 - s);
 }
 
-// Função principal
+// ---------------------------------------------------------------------------------------- //
+
+function calcularSaidas(entradas, pesos, funcaoEscolhida) {
+  const somaPonderada = entradas.reduce((sum, entrada, index) => sum + entrada * pesos[index], 0);
+
+  let saidaFuncao;
+
+  if (funcaoEscolhida === "limite") {
+    saidaFuncao = limiteRapido(somaPonderada, 1);
+  } else if (funcaoEscolhida === "rampa") {
+    saidaFuncao = funcaoRampa(somaPonderada, 1);
+  } else if (funcaoEscolhida === "sigmoide") {
+    saidaFuncao = funcaoSigmoide(somaPonderada, 1);
+  } else {
+    console.log("Função inválida. Escolha entre limite, rampa ou sigmoide.");
+    return;
+  }
+
+  return saidaFuncao;
+}
+
+function duasEntradas() {
+  const entradas = [];
+  const pesos = [];
+
+  for (let i = 1; i <= 3; i++) {
+    const entrada = parseFloat(prompt(`Digite a entrada ${i}: `));
+    const peso = parseFloat(prompt(`Digite o peso ${i}: `));
+    entradas.push(entrada);
+    pesos.push(peso);
+  }
+
+  const funcaoEscolhida = prompt("Escolha a função (limite, rampa ou sigmoide): ").toLowerCase();
+
+  const saidaLimite = calcularSaidas(entradas, pesos, funcaoEscolhida);
+  const saidaRampa = calcularSaidas(entradas, pesos, funcaoEscolhida);
+  const saidaSigmoide = calcularSaidas(entradas, pesos, funcaoEscolhida);
+
+  console.log("Saída Limite: " + saidaLimite);
+  console.log("Saída Rampa: " + saidaRampa);
+  console.log("Saída Sigmoide: " + saidaSigmoide);
+}
+
+// ---------------------------------------------------------------------------------------- //
+
 function umComTres() {
   const entrada1 = parseFloat(prompt("Digite a entrada 1: "));
   const peso1 = parseFloat(prompt("Digite o peso 1: "));
@@ -51,10 +95,8 @@ function umComTres() {
   console.log("Saída Sigmoide: " + saidaSigmoide);
 }
 
-// Chama a função principal
-// umComTres();
+// ---------------------------------------------------------------------------------------- //
 
-// Função principal
 function doisDeUma() {
   const entrada_neuronio1 = parseFloat(prompt("Digite a entrada para o primeiro neurônio: "));
   const peso1_neuronio1 = parseFloat(prompt("Digite o peso 1 do primeiro neurônio: "));
@@ -98,93 +140,67 @@ function doisDeUma() {
   console.log("Saída do segundo neurônio (Sigmoide): " + funcaoSigmoide(saida_neuronio1, peso1_neuronio2));
 }
 
+// ---------------------------------------------------------------------------------------- //
 
+// function redeBifurcada() {
+//   const entrada1 = parseFloat(prompt("Digite a entrada 1: "));
+//   const peso1 = parseFloat(prompt("Digite o peso 1: "));
 
-function redeBifurcada() {
-  const entrada1 = parseFloat(prompt("Digite a entrada 1: "));
-  const peso1 = parseFloat(prompt("Digite o peso 1: "));
+//   const funcaoEscolhida = prompt("Escolha a função (limite, rampa ou sigmoide): ").toLowerCase();
+
+//   const resultadoNeuronio1 = funcaoEscolhida === "limite" ? limiteRapido(entrada1 * peso1, 1) :
+//                             funcaoEscolhida === "rampa" ? funcaoRampa(entrada1 * peso1, 1) :
+//                             funcaoEscolhida === "sigmoide" ? funcaoSigmoide(entrada1 * peso1, 1) : null;
+
+//   const peso2 = parseFloat(prompt("Digite o peso 2: "));
+
+//   const resultadoNeuronio2 = funcaoEscolhida === "limite" ? limiteRapido(resultadoNeuronio1 * peso2, 1) :
+//                             funcaoEscolhida === "rampa" ? funcaoRampa(resultadoNeuronio1 * peso2, 1) :
+//                             funcaoEscolhida === "sigmoide" ? funcaoSigmoide(resultadoNeuronio1 * peso2, 1) : null;
+
+//   const peso3 = parseFloat(prompt("Digite o peso 3: "));
+
+//   const resultadoNeuronio3 = funcaoEscolhida === "limite" ? limiteRapido(entrada1 * peso3, 1) :
+//                             funcaoEscolhida === "rampa" ? funcaoRampa(entrada1 * peso3, 1) :
+//                             funcaoEscolhida === "sigmoide" ? funcaoSigmoide(entrada1 * peso3, 1) : null;
+
+//   console.log("Saída do neurônio 1 (Limite): " + limiteRapido(entrada1 * peso1, 1));
+//   console.log("Saída do neurônio 1 (Rampa): " + funcaoRampa(entrada1 * peso1, 1));
+//   console.log("Saída do neurônio 1 (Sigmoide): " + funcaoSigmoide(entrada1 * peso1, 1));
+
+//   console.log("Saída do neurônio 2 (Limite): " + limiteRapido(resultadoNeuronio1 * peso2, 1));
+//   console.log("Saída do neurônio 2 (Rampa): " + funcaoRampa(resultadoNeuronio1 * peso2, 1));
+//   console.log("Saída do neurônio 2 (Sigmoide): " + funcaoSigmoide(resultadoNeuronio1 * peso2, 1));
+
+//   console.log("Saída do neurônio 3 (Limite): " + limiteRapido(entrada1 * peso3, 1));
+//   console.log("Saída do neurônio 3 (Rampa): " + funcaoRampa(entrada1 * peso3, 1));
+//   console.log("Saída do neurônio 3 (Sigmoide): " + funcaoSigmoide(entrada1 * peso3, 1));
+// }
+
+// function calcularSaidaNeuronio(entrada, peso, funcaoEscolhida) {
+//   return funcaoEscolhida === "limite" ? limiteRapido(entrada * peso, 1) :
+//          funcaoEscolhida === "rampa" ? funcaoRampa(entrada * peso, 1) :
+//          funcaoEscolhida === "sigmoide" ? funcaoSigmoide(entrada * peso, 1) : null;
+// }
+
+// ---------------------------------------------------------------------------------------- //
+
+function anyEntradas() {
+  const numEntradas = parseInt(prompt("Digite o número de entradas: "));
+  const entradas = [];
+  const pesos = [];
+
+  for (let i = 1; i <= numEntradas; i++) {
+    const entrada = parseFloat(prompt(`Digite a entrada ${i}: `));
+    const peso = parseFloat(prompt(`Digite o peso ${i}: `));
+    entradas.push(entrada);
+    pesos.push(peso);
+  }
 
   const funcaoEscolhida = prompt("Escolha a função (limite, rampa ou sigmoide): ").toLowerCase();
 
-  const resultadoNeuronio1 = funcaoEscolhida === "limite" ? limiteRapido(entrada1 * peso1, 1) :
-                            funcaoEscolhida === "rampa" ? funcaoRampa(entrada1 * peso1, 1) :
-                            funcaoEscolhida === "sigmoide" ? funcaoSigmoide(entrada1 * peso1, 1) : null;
+  const saida = calcularSaidas(entradas, pesos, funcaoEscolhida);
 
-  const peso2 = parseFloat(prompt("Digite o peso 2: "));
-
-  const resultadoNeuronio2 = funcaoEscolhida === "limite" ? limiteRapido(resultadoNeuronio1 * peso2, 1) :
-                            funcaoEscolhida === "rampa" ? funcaoRampa(resultadoNeuronio1 * peso2, 1) :
-                            funcaoEscolhida === "sigmoide" ? funcaoSigmoide(resultadoNeuronio1 * peso2, 1) : null;
-
-  const peso3 = parseFloat(prompt("Digite o peso 3: "));
-
-  const resultadoNeuronio3 = funcaoEscolhida === "limite" ? limiteRapido(entrada1 * peso3, 1) :
-                            funcaoEscolhida === "rampa" ? funcaoRampa(entrada1 * peso3, 1) :
-                            funcaoEscolhida === "sigmoide" ? funcaoSigmoide(entrada1 * peso3, 1) : null;
-
-  console.log("Saída do neurônio 1 (Limite): " + limiteRapido(entrada1 * peso1, 1));
-  console.log("Saída do neurônio 1 (Rampa): " + funcaoRampa(entrada1 * peso1, 1));
-  console.log("Saída do neurônio 1 (Sigmoide): " + funcaoSigmoide(entrada1 * peso1, 1));
-
-  console.log("Saída do neurônio 2 (Limite): " + limiteRapido(resultadoNeuronio1 * peso2, 1));
-  console.log("Saída do neurônio 2 (Rampa): " + funcaoRampa(resultadoNeuronio1 * peso2, 1));
-  console.log("Saída do neurônio 2 (Sigmoide): " + funcaoSigmoide(resultadoNeuronio1 * peso2, 1));
-
-  console.log("Saída do neurônio 3 (Limite): " + limiteRapido(entrada1 * peso3, 1));
-  console.log("Saída do neurônio 3 (Rampa): " + funcaoRampa(entrada1 * peso3, 1));
-  console.log("Saída do neurônio 3 (Sigmoide): " + funcaoSigmoide(entrada1 * peso3, 1));
+  console.log("Saída: " + saida);
 }
 
-function calcularSaidaNeuronio(entrada, peso, funcaoEscolhida) {
-  return funcaoEscolhida === "limite" ? limiteRapido(entrada * peso, 1) :
-         funcaoEscolhida === "rampa" ? funcaoRampa(entrada * peso, 1) :
-         funcaoEscolhida === "sigmoide" ? funcaoSigmoide(entrada * peso, 1) : null;
-}
-
-function redeNeural() {
-  const numCamadas = parseInt(prompt("Digite o número de camadas: "));
-  const funcaoEscolhida = prompt("Escolha a função (limite, rampa ou sigmoide): ").toLowerCase();
-
-  const camadas = [];
-
-  for (let i = 0; i < numCamadas; i++) {
-    const numNeuronios = parseInt(prompt(`Digite o número de neurônios na camada ${i + 1}: `));
-    const pesos = [];
-
-    for (let j = 0; j < numNeuronios; j++) {
-      pesos.push(parseFloat(prompt(`Digite o peso para o neurônio ${j + 1} na camada ${i + 1}: `)));
-    }
-
-    camadas.push({ numNeuronios, pesos });
-  }
-
-  const resultados = [];
-
-  for (let i = 0; i < camadas.length; i++) {
-    const camadaAtual = camadas[i];
-    const resultadosCamada = [];
-
-    for (let j = 0; j < camadaAtual.numNeuronios; j++) {
-      let entradaNeuronio = 0;
-
-      if (i === 0) {
-        entradaNeuronio = parseFloat(prompt(`Digite a entrada para o neurônio ${j + 1} na camada ${i + 1}: `));
-      } else {
-        entradaNeuronio = resultados[i - 1][j];
-      }
-
-      const pesoNeuronio = camadaAtual.pesos[j];
-      const saidaNeuronio = calcularSaidaNeuronio(entradaNeuronio, pesoNeuronio, funcaoEscolhida);
-      resultadosCamada.push(saidaNeuronio);
-    }
-
-    resultados.push(resultadosCamada);
-  }
-
-  for (let i = 0; i < resultados.length; i++) {
-    const camadaAtual = resultados[i];
-    for (let j = 0; j < camadaAtual.length; j++) {
-      console.log(`Saída da camada ${i + 1}, neurônio ${j + 1} (${funcaoEscolhida}): ` + camadaAtual[j]);
-    }
-  }
-}
