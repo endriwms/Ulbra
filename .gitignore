@@ -666,11 +666,6 @@ bower_components
 .bower-registry
 .bower-tmp
 
-
-### CoffeeScript ###
-*.js
-
-
 ### Composer ###
 composer.phar
 /vendor/
