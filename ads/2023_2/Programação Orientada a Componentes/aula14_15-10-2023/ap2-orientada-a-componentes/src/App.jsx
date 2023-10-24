@@ -15,9 +15,11 @@ function App() {
   return (
     <div className='min-h-screen flex flex-col justify-center items-center bg-zinc-700 space-y-4'>
       <Header />
+
       <Welcome name={'Endriw'} />
-      <div className='grid grid-cols-2 space-y-6'>
-        <div className='flex space-x-6'>
+
+      <div className='w-full flex justify-around space-y-6'>
+        <div className='w-1/2 flex flex-wrap gap-4'>
           {formData.map((data, index) => (
             <Card
               key={index}
@@ -28,7 +30,9 @@ function App() {
             />
           ))}
         </div>
-        <Form addCard={addCard} />
+        <div className='w-1/4'>
+          <Form addCard={addCard} />
+        </div>
       </div>
     </div>
   );

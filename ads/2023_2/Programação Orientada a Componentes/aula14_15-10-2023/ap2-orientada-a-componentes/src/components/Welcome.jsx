@@ -6,8 +6,10 @@ Welcome.propTypes = {
 };
 
 function Welcome({ name }) {
-  const [cep, setCep] = useState(''); // Estado para armazenar o CEP
-  const [address, setAddress] = useState({}); // Estado para armazenar os valores retornados
+  const [logradouro, setLogradouro] = useState('');
+  const [bairro, setBairro] = useState(''); 
+  const [cep, setCep] = useState('');
+  const [address, setAddress] = useState({});
 
   const fetchViaCepData = () => {
     fetch(`https://viacep.com.br/ws/${cep}/json/`)
@@ -17,31 +19,60 @@ function Welcome({ name }) {
   };
 
   return (
-    <div className='flex flex-col justify-center items-center text-white space-y-6'>
-      <h1>Seja bem-vindo, <strong>{name}!</strong></h1>
+    <div className='w-full flex flex-col justify-around items-center text-white'>
+      <h1 className='text-2xl'>Seja bem-vindo, <strong>{name}!</strong></h1>
 
-      <button
-        onClick={fetchViaCepData}
-        className='bg-violet-600 px-4 py-2 rounded-xl'>
-        Buscar CEP
-      </button>
 
-      <div className="flex flex-col justify-center items-center text-white">
-        <input
-          type="text"
-          placeholder="Digite o CEP"
-          value={cep}
-          onChange={(e) => setCep(e.target.value)}
-        />
+      <div className='w-full flex justify-around items-center mt-4'>
 
-        {address.cep && (
-          <div>
-            {address.logradouro && <p>Logradouro: {address.logradouro}</p>}
-            {address.bairro && <p>Bairro: {address.bairro}</p>}
-            {address.localidade && <p>Cidade: {address.localidade}</p>}
-            {address.uf && <p>Estado: {address.uf}</p>}
+        <div className='w-1/2 flex flex-wrap gap-4'>
+          <div className='flex flex-col text-lg text-zinc-400'>
+            <h2 className='text-xl font-bold text-violet-600'>Endereço:</h2>
+            <span>Rua: {logradouro}</span>
+            <span>Bairro: {bairro}</span>
+
+            {address.cep && (
+              <>
+                {address.localidade && <span>Cidade: {address.localidade}</span>}
+                {address.uf && <span>Estado: {address.uf}</span>}
+              </>
+            )}
           </div>
-        )}
+        </div>
+
+        <div className='w-1/4'>
+          <div className='flex flex-col items-end space-y-2'>
+            <div className='flex space-x-2'>
+              <input
+                type="text"
+                placeholder="Rua"
+                value={logradouro}
+                onChange={(e) => setLogradouro(e.target.value)}
+                className='bg-zinc-800 rounded-lg px-2 py-3  focus:outline-none'
+              />
+              <input
+                type="text"
+                placeholder="Bairro" 
+                value={bairro}
+                onChange={(e) => setBairro(e.target.value)}
+                className='bg-zinc-800 rounded-lg px-2 py-3  focus:outline-none'
+              />
+            </div>
+
+            <input
+              type="text"
+              placeholder="CEP"
+              value={cep}
+              onChange={(e) => setCep(e.target.value)}
+              className='bg-zinc-800 rounded-lg px-2 py-3 focus:outline-none'
+            />
+            <button
+              onClick={fetchViaCepData}
+              className='bg-violet-600 px-4 py-2 rounded-xl'>
+              Buscar CEP
+            </button>
+          </div>
+        </div>
       </div>
     </div>
   );

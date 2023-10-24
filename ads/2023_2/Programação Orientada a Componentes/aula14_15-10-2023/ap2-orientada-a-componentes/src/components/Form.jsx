@@ -17,7 +17,19 @@ function Form({ addCard }) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    if (
+      formData.nome.trim() === '' ||
+      formData.telefone.trim() === '' ||
+      formData.egressoOuConvidado.trim() === '' ||
+      formData.pago.trim() === ''
+    ) {
+      alert('Por favor, preencha todos os campos obrigatórios.');
+      return;
+    }
+
     addCard(formData);
+
     setFormData({
       nome: '',
       telefone: '',
@@ -29,7 +41,7 @@ function Form({ addCard }) {
 
   return (
     <div className='bg-zinc-800 flex flex-col justify-center items-center p-6 rounded-xl text-white shadow-lg'>
-      <form className='flex flex-col space-y-2' onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className='w-full flex flex-col space-y-2'>
         <div className='flex flex-col'>
           <label>Nome:</label>
           <input
@@ -38,7 +50,8 @@ function Form({ addCard }) {
             placeholder="Digite o nome"
             value={formData.nome}
             onChange={handleChange}
-            className='bg-transparent focus:outline-none'
+            className='bg-zinc-700 rounded-lg px-2 py-3 focus:outline-none mt-2'
+            required
           />
         </div>
 
@@ -50,7 +63,20 @@ function Form({ addCard }) {
             placeholder="Digite o telefone"
             value={formData.telefone}
             onChange={handleChange}
-            className='bg-transparent focus:outline-none'
+            className='bg-zinc-700 rounded-lg px-2 py-3 focus:outline-none mt-2'
+            required
+          />
+        </div>
+
+        <div className='flex flex-col'>
+          <label>URL da Foto:</label>
+          <input
+            type="url"
+            name="foto"
+            placeholder="URL da imagem"
+            value={formData.foto}
+            onChange={handleChange}
+            className='bg-zinc-700 rounded-lg px-2 py-3 focus:outline-none mt-2'
           />
         </div>
 
@@ -60,18 +86,21 @@ function Form({ addCard }) {
             <input
               type="radio"
               name="egressoOuConvidado"
-              value="egresso"
-              checked={formData.egressoOuConvidado === "egresso"}
+              value="Egresso"
+              checked={formData.egressoOuConvidado === "Egresso"}
               onChange={handleChange}
+              className='mt-2'
+              required
             />
             <label>Egresso</label>
-            
+
             <input
               type="radio"
               name="egressoOuConvidado"
-              value="convidado"
-              checked={formData.egressoOuConvidado === "convidado"}
+              value="Convidado"
+              checked={formData.egressoOuConvidado === "Convidado"}
               onChange={handleChange}
+              required
             />
             <label>Convidado</label>
           </div>
@@ -86,6 +115,7 @@ function Form({ addCard }) {
               value="sim"
               checked={formData.pago === "sim"}
               onChange={handleChange}
+              required
             />
             <label>Sim</label>
 
@@ -95,23 +125,18 @@ function Form({ addCard }) {
               value="nao"
               checked={formData.pago === "nao"}
               onChange={handleChange}
+              required
             />
             <label>Não</label>
           </div>
-
         </div>
 
-        <label>URL da Foto:</label>
-        <input
-          type="url"
-          name="foto"
-          placeholder="URL da imagem"
-          value={formData.foto}
-          onChange={handleChange}
-          className='bg-transparent focus:outline-none'
-        />
-
-        <button type="submit">Adicionar Cartão</button>
+        <button
+          type="submit"
+          className='bg-violet-600 px-4 py-2 rounded-xl'
+        >
+          Adicionar
+        </button>
       </form>
     </div>
   );
