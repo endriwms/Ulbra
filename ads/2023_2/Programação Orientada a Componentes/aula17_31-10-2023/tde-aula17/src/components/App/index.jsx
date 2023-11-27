@@ -12,8 +12,10 @@ function App() {
   return (
     <ThemeProvider theme={defaultTheme}>
       <GlobalStyles />
+
+      <Header />
+
       <Container>
-        <Header />
         <Routes />
       </Container>
     </ThemeProvider>

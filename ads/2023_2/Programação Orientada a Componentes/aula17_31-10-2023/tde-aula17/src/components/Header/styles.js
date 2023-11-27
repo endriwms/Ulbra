@@ -1,36 +1,25 @@
 import styled from 'styled-components';
 
-export const Container = styled.header`
-  width: 100%;
-  padding: 12px 74px;
-  position: fixed;
+export const Container = styled.nav`
   display: flex;
   justify-content: space-between;
-  background: #1f1f1f;
-  top: 0;
-  left: 0;
+  align-items: center;
+  background: #000;
+  padding: 1.5rem 12rem;
+  position: relative;
 `;
 
-export const NavBar = styled.nav`
-  display: flex;
-  align-items: center;
-  margin-left: 74px;
+export const NavLinks = styled.div`
+  a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 12px;
+    font-size: 18px;
+    font-weight: 500;
+    transition: all 0.2s ease-in;
 
-  ul {
-    display: flex;
-    list-style: none;
-    gap: 12px;
-    justify-content: space-between;
-
-    a {
-      color: #fff;
-      font-size: 16px;
-      font-weight: bold;
-      text-decoration: none;
-      transition: all 0.2s;
-    }
-    a:hover {
-      color: #fabf1b;
+    &:hover {
+      color: #e67e22;
     }
   }
 `;
