@@ -9,7 +9,7 @@ function Product() {
   useEffect(() => {
     async function getProductById() {
       try {
-        const response = await fetch(`http://localhost:3001/products/${id}`);
+        const response = await fetch(`http://localhost:3000/products/${id}`);
         if (!response.ok) {
           throw new Error('Failed to fetch product');
         }

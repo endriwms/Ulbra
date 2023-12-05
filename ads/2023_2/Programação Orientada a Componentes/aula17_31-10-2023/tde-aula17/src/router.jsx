@@ -4,6 +4,7 @@ import Home from './pages/home';
 import Products from './pages/products';
 import Contact from './pages/contact';
 import Product from './pages/products/product';
+import NewProduct from './pages/products/newProduct';
 
 function Routes() {
   return (
@@ -12,6 +13,7 @@ function Routes() {
       <Route path="/products" element={<Products />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/product/:id" element={<Product />} />
+      <Route path="/add-product/" element={<NewProduct />} />
     </Router>
   );
 }

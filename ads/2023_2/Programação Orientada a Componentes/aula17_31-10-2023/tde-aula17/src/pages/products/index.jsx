@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Container, ProductCard, ProductInfo } from './styles'
+import { Container, CardList, ProductCard, ProductInfo } from './styles'
 
 function Products() {
   const [products, setProducts] = useState([]);
@@ -8,7 +8,7 @@ function Products() {
   useEffect(() => {
     async function getProducts() {
       try {
-        const response = await fetch('http://localhost:3001/products');
+        const response = await fetch('http://localhost:3000/products');
         if (!response.ok) {
           throw new Error('Error fetching products');
         }
@@ -25,20 +25,26 @@ function Products() {
 
   return (
     <Container>
-      {products.map(product => (
-        <ProductCard key={product.id}>
-          <img src={product.img} alt={product.name} height="300" />
+      <Link to="/add-product">
+        Adicionar Novo Produto
+      </Link>
 
-          <ProductInfo>
-            <h1>{product.name}</h1>
-            <p>{product.description}</p>
-            <span>Price: ${product.price}</span>
-            <Link to={`/product/${product.id}`}>
-              Visualizar
-            </Link>
-          </ProductInfo>
-        </ProductCard>
-      ))}
+      <CardList>
+        {products.map(product => (
+          <ProductCard key={product.id}>
+            <img src={product.img} alt={product.name} height="300" />
+
+            <ProductInfo>
+              <h1>{product.name}</h1>
+              <p>{product.description}</p>
+              <span>Price: ${product.price}</span>
+              <Link to={`/product/${product.id}`}>
+                Visualizar
+              </Link>
+            </ProductInfo>
+          </ProductCard>
+        ))}
+      </CardList>
     </Container>
   );
 }

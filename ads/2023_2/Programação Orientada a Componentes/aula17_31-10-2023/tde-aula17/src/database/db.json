@@ -27,6 +27,20 @@
       "name": "Product 4",
       "description": "Product description 4",
       "price": 80
+    },
+    {
+      "id": 5,
+      "img": "https://picsum.photos/200/300",
+      "name": "Product 5",
+      "description": "Product description 5",
+      "price": 80
+    },
+    {
+      "id": 6,
+      "img": "https://picsum.photos/200/300",
+      "name": "Product 6",
+      "description": "Product description 6",
+      "price": 80
     }
   ]
 }
