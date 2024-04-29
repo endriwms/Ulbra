@@ -28,7 +28,6 @@ class MainActivity : AppCompatActivity() {
       destinatario.text.clear()
       mensagem.text.clear()
 
-
       startActivity(intent)
     }
 
