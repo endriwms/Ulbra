@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">cartinha</string>
+    <string name="digite_o_assunto_do_e_mail">Digite o assunto do E-mail</string>
+    <string name="cartinha">Cartinha</string>
+    <string name="digite_o_email_do_destinatario">Digite o email do destinatário</string>
+    <string name="digite_a_mensagem">Digite a mensagem</string>
+    <string name="enviar_e_mail">Enviar E-mail</string>
+</resources>
